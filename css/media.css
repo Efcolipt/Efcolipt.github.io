@@ -267,7 +267,7 @@
 		display: none;
 	}
 	.fast--text--about >button{
-		display: block;
+		display: block!important;
 	}
 	.form--modal--more > form{
 		margin-left: 0!important;
