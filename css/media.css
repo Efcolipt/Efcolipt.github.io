@@ -137,6 +137,11 @@
 	.form--callback{
 		display: none;
 	}
+	.form--modal--more > form > button {
+	    padding-top: 10px!important;
+	    padding-bottom: 10px!important;
+	    font-size: 16px!important;
+	}
 }
 @media only screen and (max-width:672px){
 	.models--catalog > ul > li > span{
@@ -153,11 +158,6 @@
 	}
 	header {
 	    padding: 25px 0px!important;
-	}
-		.form--modal--more > form > button {
-	    padding-top: 10px!important;
-	    padding-bottom: 10px!important;
-	    font-size: 16px!important;
 	}
 }	
 @media only screen and (max-width:593px){
