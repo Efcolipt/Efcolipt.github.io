@@ -179,7 +179,7 @@ header{
 	padding-left: 17px;
 	border-radius: 10px;
 }
-.phone--number > a {
+.phone--number >span> a {
 	color:#fff;
 }
 .phone--number > span > i {
