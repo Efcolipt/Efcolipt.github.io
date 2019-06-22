@@ -93,6 +93,9 @@
 	.fast--text--about h1 {
 	    font-size: 20px!important;
 	}
+	.menu--nav > li {
+	    margin-right: 10px!important;
+	}
 	.fast--text--about span {
     	font-size: 16px!important;
 	}
@@ -101,6 +104,9 @@
 	}
 	.catalog--switch > span{
 		    font-size: 24px!important;
+	}
+		.fast--text--about >button{
+		display: block!important;
 	}
 	.img--block--catalog img {
 	    width: 200px!important;
@@ -145,9 +151,10 @@
 	header {
 	    padding: 25px 0px!important;
 	}
-	.menu--nav > li{
-
-   	 margin-right: 10px!important;
+		.form--modal--more > form > button {
+	    padding-top: 10px!important;
+	    padding-bottom: 10px!important;
+	    font-size: 16px!important;
 	}
 }	
 @media only screen and (max-width:593px){
@@ -186,11 +193,6 @@
 	    width: 200px!important;
 	}
 	.form--modal--more > form > input {
-	    padding-top: 10px!important;
-	    padding-bottom: 10px!important;
-	    font-size: 16px!important;
-	}
-	.form--modal--more > form > button {
 	    padding-top: 10px!important;
 	    padding-bottom: 10px!important;
 	    font-size: 16px!important;
@@ -266,9 +268,7 @@
 	.text--modal--more{
 		display: none;
 	}
-	.fast--text--about >button{
-		display: block!important;
-	}
+
 	.form--modal--more > form{
 		margin-left: 0!important;
 		width:100%!important;

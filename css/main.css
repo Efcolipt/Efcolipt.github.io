@@ -138,8 +138,8 @@ header{
 .container{
 	max-width: 1300px;
 	margin: 0 auto;
-	padding-left: 15px;
-	padding-right: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .logo{
 	font-family: 'Montserrat', sans-serif;
@@ -178,6 +178,9 @@ header{
 	padding-right: 13px;
 	padding-left: 17px;
 	border-radius: 10px;
+}
+.phone--number > a {
+	color:#262626;
 }
 .phone--number > span > i {
 	color:#99C42D;
