@@ -159,6 +159,9 @@
 	header {
 	    padding: 25px 0px!important;
 	}
+		.item--catalog{
+		flex-direction: column!important;
+	}
 }	
 @media only screen and (max-width:593px){
 	.about h1 {
@@ -214,9 +217,6 @@
 	.catalog--switch > span {
 	    padding: 10px 0px!important;
 	}	
-	.item--catalog{
-		flex-direction: column!important;
-	}
 	.img--block--catalog{
 		border-radius: 10px;
 		width:100%!important;
