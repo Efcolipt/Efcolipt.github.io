@@ -266,7 +266,7 @@
 	.text--modal--more{
 		display: none;
 	}
-	.fast--text--about{
+	.fast--text--about >button{
 		display: block;
 	}
 	.form--modal--more > form{

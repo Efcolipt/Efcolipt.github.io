@@ -191,7 +191,7 @@ header{
 
 
 /*Section once*/
-.fast--text--about{
+.fast--text--about > button{
 	display: none;
 }
 .fast--about{
