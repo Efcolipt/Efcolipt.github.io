@@ -262,7 +262,7 @@
 		text-align:center!important;
 		display: inline-block!important;
 	}
-	.design--home > p > strong{
+	.design--home > p > a{
 		font-size: 14px!important;
 	}	
 	.text--modal--more{

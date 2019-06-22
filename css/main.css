@@ -520,7 +520,8 @@ footer > hr {
 	font-family: Montserrat;
 	color: #FFFFFF;
 }
-.design--home > p > strong {
+.design--home > p > a {
 	font-size: 24px;
+	color:#262626;
 }
 /*end footer*/
