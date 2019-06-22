@@ -234,6 +234,12 @@
 	.menu--nav  {
 		display: none!important;
 	}
+	.close{
+		margin-right: 20px!important;
+		margin-top: 0!important;
+		margin-bottom: 0!important;
+		margin-left: 0!important;
+	}
 }
 @media only screen and (max-width:485px){
 	.soc--about--footer{
@@ -265,7 +271,7 @@
 		width:100%!important;
 	}
 	.modal--window--more {
-	    padding: 46px 10px!important;
+	    padding: 5px 10px!important;
 	  
 	}
 	.models--catalog > ul > li > span {
