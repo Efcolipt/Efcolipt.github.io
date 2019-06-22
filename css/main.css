@@ -43,7 +43,8 @@ body,html{
 	padding-right: 61px;
 	padding-left: 61px;
 	background: #fff;
-	margin: 150px auto;
+	border-radius: 5px;
+	margin: auto auto;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -112,7 +113,7 @@ body,html{
 	color:#fff;
 	margin: 15px;
 	cursor: pointer;
-	font-size: 45px;
+	font-size: 20px;
 	transition: all.2s ease;
 }
 .close:hover{
