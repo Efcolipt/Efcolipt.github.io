@@ -142,13 +142,13 @@
 	    padding-bottom: 10px!important;
 	    font-size: 16px!important;
 	}
+		.img--block--catalog > button{
+		padding: 10px 35px !important;
+	}
 }
 @media only screen and (max-width:672px){
 	.models--catalog > ul > li > span{
 		font-size: 14px;
-	}
-	.img--block--catalog > button{
-		padding: 10px 35px !important;
 	}
 	.catalog--switch > span {
 	    font-size: 20px!important;
