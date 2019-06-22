@@ -415,6 +415,7 @@ font-weight: 700;
 .img--block--catalog > button {
 	margin-top: 15px;
 	padding-top: 15px;
+	border-radius: 5PX;
 	padding-bottom: 15px;
 	padding-right: 55px;
 	background: inherit;
