@@ -47,9 +47,9 @@
 	.text--modal--more > p{
 		    font-size: 22px!important;
 	}
-	.modal--window--more{
-		padding: 60px 45px!important;
-		margin: auto 20px!important;
+	.modal--window--more {
+	    padding: 5px 45px!important;
+	    margin: auto 20px!important;
 	}
 	.models--catalog > ul > li > span{
 		margin-right: 10px!important;
