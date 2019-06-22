@@ -469,6 +469,9 @@ footer{
 	margin-right: 10px;
 	font-size: 18px;
 }
+.fast--find > span > a {
+	color:#fff;
+}
 .fast--find > span > i {
 	margin-right: 3px;
 }
