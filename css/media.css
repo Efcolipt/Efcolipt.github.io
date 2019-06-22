@@ -266,6 +266,9 @@
 	.text--modal--more{
 		display: none;
 	}
+	.fast--text--about{
+		display: block;
+	}
 	.form--modal--more > form{
 		margin-left: 0!important;
 		width:100%!important;

@@ -191,6 +191,9 @@ header{
 
 
 /*Section once*/
+.fast--text--about{
+	display: none;
+}
 .fast--about{
 	padding: 140px 0px;
 	background: url('../img/section about us/bg--aobut.jpg') no-repeat  center ;
