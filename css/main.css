@@ -122,7 +122,7 @@ body,html{
 /*Header*/
 header{
 	background: #fff;
-	padding: 26px 145px;
+	padding: 26px 0px;
 }
 
 .top--header{
@@ -191,7 +191,7 @@ header{
 
 /*Section once*/
 .fast--about{
-	padding: 140px 145px;
+	padding: 140px 0px;
 	background: url('../img/section about us/bg--aobut.jpg') no-repeat  center ;
 
 }
