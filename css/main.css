@@ -397,7 +397,7 @@ font-weight: 700;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	border-bottom:0.5px solid #cecece;
 	border-right:0.5px solid #cecece;
 	border-left:0.5px solid #cecece;
