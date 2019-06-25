@@ -405,6 +405,7 @@ font-weight: 700;
 }
 .models--catalog > ul > li > span {
 	margin-left: 50px;
+	text-align: center;
 	white-space: nowrap;
 	width: 25%;
 	font-family: Fira Sans;
