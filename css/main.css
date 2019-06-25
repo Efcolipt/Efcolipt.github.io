@@ -331,6 +331,7 @@ header{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	align-items: center;
 	margin-bottom: 37px;
 }
 .catalog--switch > span {
