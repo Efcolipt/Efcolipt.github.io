@@ -373,7 +373,7 @@ font-weight: 700;
 	border-bottom-left-radius: 10px;
 }
 .models--catalog{
-	width:120%;
+	width:100%;
 }
 .models--catalog > ul > li:last-child{
 	border-bottom-right-radius: 10px;
