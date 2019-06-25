@@ -428,7 +428,7 @@ font-weight: 700;
 	transition: all.3s ease;
 	font-size: 18px;
 	font-family: Fira Sans;
-	width: 60%;
+	width: 50%;
 	text-transform: uppercase;
 }
 .img--block--catalog > button:hover{
