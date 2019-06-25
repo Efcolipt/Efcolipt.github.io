@@ -391,7 +391,6 @@ font-weight: 700;
 .models--catalog > ul > li {
 	padding-top: 30.5px;
 	padding-bottom: 30.5px;
-	text-align: center;
 	background: #E4E4E4;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -407,7 +406,7 @@ font-weight: 700;
 .models--catalog > ul > li > span {
 	margin-left: 50px;
 	white-space: nowrap;
-	margin-right: 50px;
+	width: 25%;
 	font-family: Fira Sans;
 }
 .img--block--catalog img {
