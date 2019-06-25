@@ -408,7 +408,10 @@ font-weight: 700;
 	margin-right: 50px;
 	font-family: Fira Sans;
 }
-
+.img--block--catalog img {
+	width: 288px;
+	height: 290px;	
+}
 .img--block--catalog > button {
 	margin-top: 15px;
 	padding-top: 15px;
