@@ -345,7 +345,7 @@ header{
 	font-weight: 300;
 	cursor: pointer;
 }
-.models--catalog > table > tr{
+ tr{
 border:1px solid #000;
 }
 .catalog--switch > span > p {
