@@ -113,6 +113,9 @@
 		.models--catalog > ul > li > span{
 		font-size: 14px;
 	}
+	.img--block--catalog > button{
+		    width: 60%!important;
+	}
 }
 @media only screen and (max-width:745px){
 	.fast--text--about h1 {
