@@ -1,4 +1,47 @@
 
+<? 
+
+$sitename = "sep"; 
+$zakaz = rand(1000015, 1009999); 
+
+$data = $_POST;
+if (isset($data['send'])) {
+	$data['phone'] = stripslashes($data['phone']);
+	$data['phone'] = htmlspecialchars($data['phone']);
+	$data['username'] = stripslashes($data['username']);
+	$data['username'] = htmlspecialchars($data['username']);	
+	$data['email'] = stripslashes($data['email']);
+	$data['email'] = htmlspecialchars($data['email']);
+	$MessageError = array();
+
+
+
+if (strlen(trim($data['username'])) < 1 ) ) {
+	$MessageError[] = 'Введите имя';
+}
+if (strlen(trim($data['email'])) < 1 ) ) {
+	$MessageError[] = 'Введите email';
+}
+if (strlen($data['phone']) < 11 ) {
+	$MessageError[] = 'Длина телефона должна быть не меньше 12 цифр';
+}
+
+
+
+if (empty($MessageError)) {
+
+	$pagetitle = "Новая заявка с сайта ".$sitename; 
+	$message = "$data['username'] \nТелефон: $data['phone'] \n$Email\nНомер заказа: $zakaz"; 
+	mail($data['email'], $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: online1991uristi@mail.ru");
+
+
+	}
+}
+
+
+
+ 
+?>
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
 <head>
@@ -50,7 +93,8 @@
 						<form action="#" method="post">
 							<input type="text" placeholder="Ваше имя " name="username" required>
 							<input type="text" placeholder="Ваш телефон" name="phone" class="phone--ms" required>
-							<button type="submit">Отправить</button>
+							<input type="email" placeholder="Ваш email" name="email" class="phone--ms" required>
+							<button type="submit" name="send">Отправить</button>
 							<small>Гарантируем, что ваши данные не будут переданы третьим лицам или использоваться в спам-рассылках</small>
 
 						</form>
@@ -97,8 +141,9 @@
 								<h2>Оставьте заявку</h2>
 								<p>на бесплатную консультацию <br> и выезд нашего специалиста</p>
 								<input type="text" placeholder="Ваше имя" name="username" required >
-								<input type="text" class="phone--ms" placeholder="Ваш телефон" name="phone" required >	
-								<button type="submit">Отправить</button>
+								<input type="text" class="phone--ms" placeholder="Ваш телефон" name="phone" required >
+								<input type="email" placeholder="Ваш email" name="email" class="phone--ms" required>	
+								<button type="submit" name="send">Отправить</button>
 								<small>Гарантируем, что ваши данные не будут переданы третьим лицам или использоваться в спам-рассылках</small>
 							</form>
 						</div>
