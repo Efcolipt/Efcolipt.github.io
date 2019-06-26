@@ -27,7 +27,7 @@ if (strlen($data['phone']) < 16 ) {
 }
 
 if (!preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $data['email'] )) {
-		$MessageError[] = 'Адрес указан не правильно';
+		$MessageError[] = 'Email указан не правильно';
 }
 
 
