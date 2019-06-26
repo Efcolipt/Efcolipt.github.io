@@ -19,7 +19,7 @@ if (isset($data['send'])) {
 if (strlen(trim($data['username'])) < 1 ) {
 	$MessageError[] = 'Введите имя';
 }
-if (strlen(trim($data['email'])) < 1 )  {
+if (strlen(trim($data['email'])) < 1 ) {
 	$MessageError[] = 'Введите email';
 }
 if (strlen($data['phone']) < 11 ) {
@@ -31,7 +31,7 @@ if (strlen($data['phone']) < 11 ) {
 if (empty($MessageError)) {
 
 	$pagetitle = "Новая заявка с сайта ".$sitename; 
-	$message = "$data['username'] \nТелефон: $data['phone'] \n$Email\nНомер заказа: $zakaz"; 
+	$message = " ".$data['username']." \nТелефон: ".$data['phone']." \n".$data['email']."\nНомер заказа: ".$zakaz.""; 
 	mail($data['email'], $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: online1991uristi@mail.ru");
 
 
@@ -93,7 +93,7 @@ if (empty($MessageError)) {
 						<form action="#" method="post">
 							<input type="text" placeholder="Ваше имя " name="username" required>
 							<input type="text" placeholder="Ваш телефон" name="phone" class="phone--ms" required>
-							<input type="email" placeholder="Ваш email" name="email" class="phone--ms" required>
+							<input type="email" placeholder="Ваш email" name="email" required>
 							<button type="submit" name="send">Отправить</button>
 							<small>Гарантируем, что ваши данные не будут переданы третьим лицам или использоваться в спам-рассылках</small>
 
@@ -142,7 +142,7 @@ if (empty($MessageError)) {
 								<p>на бесплатную консультацию <br> и выезд нашего специалиста</p>
 								<input type="text" placeholder="Ваше имя" name="username" required >
 								<input type="text" class="phone--ms" placeholder="Ваш телефон" name="phone" required >
-								<input type="email" placeholder="Ваш email" name="email" class="phone--ms" required>	
+								<input type="email" placeholder="Ваш email" name="email" required>	
 								<button type="submit" name="send">Отправить</button>
 								<small>Гарантируем, что ваши данные не будут переданы третьим лицам или использоваться в спам-рассылках</small>
 							</form>
