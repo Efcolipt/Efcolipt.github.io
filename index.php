@@ -16,10 +16,10 @@ if (isset($data['send'])) {
 
 
 
-if (strlen(trim($data['username'])) < 1 ) ) {
+if (strlen(trim($data['username'])) < 1 ) {
 	$MessageError[] = 'Введите имя';
 }
-if (strlen(trim($data['email'])) < 1 ) ) {
+if (strlen(trim($data['email'])) < 1 )  {
 	$MessageError[] = 'Введите email';
 }
 if (strlen($data['phone']) < 11 ) {
