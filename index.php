@@ -22,18 +22,22 @@ if (strlen(trim($data['username'])) < 1 ) {
 if (strlen(trim($data['email'])) < 1 ) {
 	$MessageError[] = 'Введите email';
 }
-if (strlen($data['phone']) < 11 ) {
-	$MessageError[] = 'Длина телефона должна быть не меньше 12 цифр';
+if (strlen($data['phone']) < 16 ) {
+	$MessageError[] = 'Длина телефона должна быть не меньше 11 цифр';
 }
 
+if (!preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $data['email'] )) {
+		$MessageError[] = 'Адрес указан не правильно';
+}
 
 
 if (empty($MessageError)) {
 
 	$pagetitle = "Новая заявка с сайта ".$sitename; 
 	$message = " ".$data['username']." \nТелефон: ".$data['phone']." \n".$data['email']."\nНомер заказа: ".$zakaz.""; 
-	mail($data['email'], $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: online1991uristi@mail.ru");
-
+	if (!mail($data['email'], $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: online1991uristi@mail.ru")) {
+		$MessageError[] = "Сообщение не  отправилось";
+	}
 
 	}
 }
@@ -76,7 +80,7 @@ if (empty($MessageError)) {
 
 	<body>
 
-
+	
 
 		<div class="wrapper">
 			<!-- Modal -->
@@ -93,7 +97,7 @@ if (empty($MessageError)) {
 						<form action="#" method="post">
 							<input type="text" placeholder="Ваше имя " name="username" required>
 							<input type="text" placeholder="Ваш телефон" name="phone" class="phone--ms" required>
-							<input type="email" placeholder="Ваш email" name="email" required>
+							<input type="email" placeholder="Ваш email" name="email"  required>
 							<button type="submit" name="send">Отправить</button>
 							<small>Гарантируем, что ваши данные не будут переданы третьим лицам или использоваться в спам-рассылках</small>
 
@@ -121,6 +125,11 @@ if (empty($MessageError)) {
 					</div>
 				</div>
 			</header>
+			<div class="error">
+					<?php if (!empty($MessageError)) {
+						echo "<p>".array_shift($MessageError)."</p>";
+					}?>
+				</div>
 			<section class="fast--about">
 				<div class="container">
 					<div class="about">
@@ -142,7 +151,7 @@ if (empty($MessageError)) {
 								<p>на бесплатную консультацию <br> и выезд нашего специалиста</p>
 								<input type="text" placeholder="Ваше имя" name="username" required >
 								<input type="text" class="phone--ms" placeholder="Ваш телефон" name="phone" required >
-								<input type="email" placeholder="Ваш email" name="email" required>	
+								<input type="email" placeholder="Ваш email" name="email"  required>	
 								<button type="submit" name="send">Отправить</button>
 								<small>Гарантируем, что ваши данные не будут переданы третьим лицам или использоваться в спам-рассылках</small>
 							</form>

@@ -548,3 +548,12 @@ footer > hr {
 	cursor: pointer;
 	border-bottom: 2px dashed  #99C42D;
 }
+
+.error {
+	     position: absolute;
+    left: 50%;
+    font-size: 20px;
+    right: 50%;
+    z-index: 10;
+    color: #f00;
+}
