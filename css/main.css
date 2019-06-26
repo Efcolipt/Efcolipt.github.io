@@ -541,5 +541,9 @@ footer > hr {
 .assort--callack--can{
 	text-align: center;
     margin-top: 40px;
-    font-size: 25px;
+    font-size: 18px;
+    color:#262626;
+}
+.assort--callack--can > span {
+	border-bottom: 1px dashed  #99C42D;
 }
