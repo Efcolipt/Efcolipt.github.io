@@ -117,6 +117,14 @@
 		    width: 60%!important;
 	}
 }
+@media only screen and (max-width:825px){
+	
+		.design--home{
+		flex-direction: column!important;
+		justify-content: center!important;
+	}
+
+}
 @media only screen and (max-width:745px){
 	.fast--text--about h1 {
 	    font-size: 20px!important;
@@ -139,10 +147,6 @@
 	.img--block--catalog img {
 	    width: 225px!important;
 	    height: 225px!important;
-	}
-	.design--home{
-		flex-direction: column!important;
-		justify-content: center!important;
 	}
 	.design--home > p{
 		margin-top: 20px;
@@ -250,7 +254,7 @@
 		padding-right: 15px!important;
 		padding-left: 15px!important;
 	}
-	
+
 }
 @media only screen and (max-width:485px){
 	.soc--about--footer{
