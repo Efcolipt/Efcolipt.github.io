@@ -26,16 +26,13 @@ if (strlen($data['phone']) < 16 ) {
 	$MessageError[] = 'Длина телефона должна быть не меньше 11 цифр';
 }
 
-if (!preg_match("/^(?:[a-z0-9]+(?:[-_.]?[a-z0-9]+)?@[a-z0-9_.-]+(?:\.?[a-z0-9]+)?\.[a-z]{2,5})$/i", $data['email'] )) {
-		$MessageError[] = 'Email указан не правильно';
-}
 
 
 if (empty($MessageError)) {
 
 	$pagetitle = "Новая заявка с сайта ".$sitename; 
 	$message = " ".$data['username']." \nТелефон: ".$data['phone']." \n".$data['email']."\nНомер заказа: ".$zakaz.""; 
-	if (!mail($data['email'], $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: online1991uristi@mail.ru")) {
+	if (!mail($data['email'], $pagetitle, $message, "Content-type: text/plain;\n charset = utf-8\n From: online1991uristi@mail.ru\n\r")) {
 		$MessageError[] = "Сообщение не  отправилось";
 	}
 
