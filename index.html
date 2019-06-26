@@ -1,48 +1,4 @@
 
-<? 
-
-$sitename = "sep"; 
-$zakaz = rand(1000015, 1009999); 
-
-$data = $_POST;
-if (isset($data['send'])) {
-	$data['phone'] = stripslashes($data['phone']);
-	$data['phone'] = htmlspecialchars($data['phone']);
-	$data['username'] = stripslashes($data['username']);
-	$data['username'] = htmlspecialchars($data['username']);	
-	$data['email'] = stripslashes($data['email']);
-	$data['email'] = htmlspecialchars($data['email']);
-	$MessageError = array();
-
-
-
-if (strlen(trim($data['username'])) < 1 ) {
-	$MessageError[] = 'Введите имя';
-}
-if (strlen(trim($data['email'])) < 1 ) {
-	$MessageError[] = 'Введите email';
-}
-if (strlen($data['phone']) < 16 ) {
-	$MessageError[] = 'Длина телефона должна быть не меньше 11 цифр';
-}
-
-
-
-if (empty($MessageError)) {
-
-	$pagetitle = "Новая заявка с сайта ".$sitename; 
-	$message = " ".$data['username']." \nТелефон: ".$data['phone']." \n".$data['email']."\nНомер заказа: ".$zakaz.""; 
-	if (!mail($data['email'], $pagetitle, $message, "Content-type: text/plain;\n charset = utf-8\n From: online1991uristi@mail.ru\n\r")) {
-		$MessageError[] = "Сообщение не  отправилось";
-	}
-
-	}
-}
-
-
-
- 
-?>
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
 <head>
@@ -122,11 +78,6 @@ if (empty($MessageError)) {
 					</div>
 				</div>
 			</header>
-			<div class="error">
-					<?php if (!empty($MessageError)) {
-						echo "<p>".array_shift($MessageError)."</p>";
-					}?>
-				</div>
 			<section class="fast--about">
 				<div class="container">
 					<div class="about">
