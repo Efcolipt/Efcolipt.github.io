@@ -545,5 +545,6 @@ footer > hr {
     color:#262626;
 }
 .assort--callack--can > span {
+	cursor: pointer;
 	border-bottom: 1px dashed  #99C42D;
 }
