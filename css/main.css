@@ -557,3 +557,8 @@ footer > hr {
     z-index: 10;
     color: #f00;
 }
+.offer{
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
