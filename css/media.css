@@ -47,4 +47,48 @@
 		display: block!important;
 		margin-top: 20px;
 	}
+	.menu--modal--content{
+		margin-top: 90px!important;
+	}
+}
+@media only screen and (max-width: 872px){
+	#start--block{
+		padding-top: 0!important;
+	}
+	.img--title> img {
+	    height: 260px!important;
+	}
+	.port--worker {
+	    height: 260px!important;
+	}
+	.about--this--site {
+	    margin-top: 40px!important;
+	}
+	.show--about--port h3{
+		margin-top: 25px!important;
+	}
+	h3{
+		font-size: 35px!important;
+	}
+	.show--about--port p{
+		font-size: 14px!important;
+	}
+	#start--block{
+		padding-top: 0!important;
+	}
+	.content--start > h1{
+		margin: 45px 0px 0px 0px;
+	}
+	h1 {
+	    font-size: 50px!important;
+	}
+	.content--start > p {
+	    font-size: 22px!important;
+	}
+	h2 {
+	    font-size: 42px!important;
+	}
+	#our--portfolio{
+		padding-top: 40px!important;
+	}
 }
