@@ -17,11 +17,11 @@ $(document).ready(function () {
 		    // Do something else, like open/close menu
 	});
 		  $('.port--worker').mouseenter(function(){
-		  		$(this).find('.show--about--port ').fadeIn('slow');
+		  		$(this).find('.show--about--port ').fadeTo("500", 1);
 		  }); 
 
 		  $('.port--worker').mouseleave(function(){
-		  		$(this).find('.show--about--port ').fadeOut('slow');
+		  		$(this).find('.show--about--port ').fadeTo("500", 0);
 		  });
 		  $('.question').click(function(){
 		  	var data_id = $(this).find('.answere--question').attr('data-id');
