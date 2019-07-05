@@ -17,6 +17,9 @@
 	.about--this--site{
 		margin-top: 70px!important;
 	}
+	#start--block{
+		padding-top: 100px!important;
+	}
 }
 
 @media only screen and (max-width: 992px){
