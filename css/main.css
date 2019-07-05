@@ -525,7 +525,11 @@ header{
 	max-width: 400px;
 }
 .offer{
+	cursor: pointer;
 	color:#03ACC1;
+}
+.offer:hover{
+	text-decoration:underline;
 }
 
 
