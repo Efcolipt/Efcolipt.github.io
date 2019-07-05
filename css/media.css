@@ -1,1 +1,59 @@
-@media only screen and (max-width: )
+@media only screen and (max-width: 1060px){
+	#start--block{
+		padding-top: 60px!important;
+		height: 50vh!important;
+	    background-size: 60%!important;
+	}
+	h1{
+		font-size: 55px!important;
+	}
+	.content--start > p{
+		font-size: 24px!important;
+	}
+	.img--title> img{
+		height: 300px!important;
+	}
+	.port--worker{
+		height: 300px!important;
+	}
+	.about--this--site{
+		margin-top: 70px!important;
+	}
+	#our--portfolio{
+		padding-top: 0!important;
+	}
+}
+
+@media only screen and (max-width: 972px){
+	.port--worker{
+		height: 335px!important;
+		width: 100%!important;
+	}
+	.about--this--site{
+		margin-top: 100px!important;
+	}
+	.img--title> img{
+		height: 335px!important;
+	}
+	.person{
+		margin-right: 0!important;
+		margin-top: 40px;
+	}
+	.content--price--block{
+		margin-top: 40px;
+	}
+	.contact--content{
+		text-align: center;
+		flex-direction: column;
+	}
+	.contact--content > form {
+		margin-top: 50px;
+	}
+	.inp--contact > input{
+		width: 32.5%!important;
+	}
+	.menu--modal--content > ul > li{
+		display: block!important;
+		margin-top: 20px;
+	}
+}
