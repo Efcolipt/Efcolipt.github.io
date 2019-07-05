@@ -477,9 +477,6 @@ header{
 .inp--contact >  input:focus{
 	border-bottom:1px solid #D8D8D8;
 }
-.inp--contact >  input:nth-child(2n){
-	margin-right: 0!important;
-}
 .inp--contact{
 	text-align: center;
 }
