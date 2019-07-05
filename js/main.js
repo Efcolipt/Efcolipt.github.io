@@ -5,7 +5,7 @@ $(document).ready(function () {
 		  		$switching = false;
 		  		$menu.slideUp('100');
 		  		$menu.removeClass('active--menu');
-		  		$('body').css({"overflow":"scroll"});
+		  		$('body').css({"overflow-y":"scroll"});
 		  	}else{
 		  		$menu.slideDown('200');
 		  		$('body').css({"overflow":"hidden"});
