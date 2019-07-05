@@ -141,11 +141,9 @@ header{
 /* Section start*/
 
 #start--block {
-	    padding-bottom: 50px;
+	    padding-bottom: 150px;
+	    padding-top: 150px;
     background: url(../img/bg--start.png) right no-repeat;
-}
-.content--start {
-	padding-top: 150px;
 }
 .content--start > h1 {
 	line-height: 110%;
