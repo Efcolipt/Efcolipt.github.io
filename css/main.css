@@ -481,6 +481,7 @@ header{
 	text-align: center;
 }
 .inp--contact >  input{
+	display: inline-block;
 	transition: all.3s ease;
 	background: inherit;
 	border-bottom: 1px solid #6d6d6d;
@@ -491,7 +492,7 @@ header{
 	border-top:0;
 	border-left: 0;
 	border-right:0;
-	width: 44.5%;
+	width: 40.5%;
 	margin-top: 15px;
 	margin-right: 20px;
 	margin-bottom: 15px;
