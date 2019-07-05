@@ -480,6 +480,9 @@ header{
 .inp--contact >  input:nth-child(2n){
 	margin-right: 0!important;
 }
+.inp--contact{
+	text-align: center;
+}
 .inp--contact >  input{
 	transition: all.3s ease;
 	background: inherit;
@@ -493,7 +496,7 @@ header{
 	border-right:0;
 	width: 44.5%;
 	margin-top: 15px;
-	margin-right: 30px;
+	margin-right: 20px;
 	margin-bottom: 15px;
 	font-size: 14px;
 }
