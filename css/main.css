@@ -10,6 +10,7 @@ a{
 	transition: all.3s ease;
 	
 }
+
 body{
 	transition: all.3s ease;
 }
@@ -52,7 +53,7 @@ h3{
     top: 88px;
 }
 .menu--modal--content{
-	margin-top: 200px;
+	margin-top: 300px;
 	text-align: center;
 }
 
@@ -232,7 +233,7 @@ header{
 /*Our Team*/
 
 #our--team{
-	background: #000;
+	background: #131418;
 	padding-top: 70px;
 	padding-bottom: 80px;
 }
@@ -582,6 +583,9 @@ header{
     border-radius: 46px;
     padding: 5px 6px;
    }
+.our--vk:visited{
+	color:inherit;
+}
 
 
 
@@ -591,8 +595,7 @@ header{
 
 
 
-
-
+/*
 
 
 ::-webkit-scrollbar {
@@ -608,4 +611,4 @@ header{
 ::-webkit-scrollbar-thumb {
      background-color: #6d6d6d;
             border-radius: 5px;
-}
+}*/
