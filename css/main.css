@@ -141,7 +141,6 @@ header{
 /* Section start*/
 
 #start--block {
-	padding-top: 100px;
 	height: 70vh;
     background: url(../img/bg--start.png) right no-repeat;
 }
