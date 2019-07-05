@@ -5,8 +5,10 @@ $(document).ready(function () {
 		  		$switching = false;
 		  		$menu.slideUp('100');
 		  		$menu.removeClass('active--menu');
+		  		$('body').css({"overflow":"scroll"});
 		  	}else{
 		  		$menu.slideDown('200');
+		  		$('body').css({"overflow":"hidden"});
 		  		$switching = true;
 		  		$menu.addClass('active--menu');
 		  	}
@@ -49,6 +51,7 @@ $(document).ready(function () {
 		  	 menu.slideUp('100');
 		  	 $switching = false;
 		  	 menu.removeClass('active--menu');
+		  	 $('body').css({"overflow":"scroll"});
 		  	 $hamburger.removeClass('is-active');
 		  });
 
