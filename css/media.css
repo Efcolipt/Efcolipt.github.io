@@ -46,6 +46,7 @@
 	.menu--modal--content > ul > li{
 		display: block!important;
 		margin-top: 20px;
+		margin-right: 0!important;
 	}
 	.menu--modal--content{
 		margin-top: 90px!important;
