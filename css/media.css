@@ -25,9 +25,7 @@
 }
 
 @media only screen and (max-width: 992px){
-	.port--worker{
-		height: 335px!important;
-	}
+
 	.about--this--site{
 		margin-top: 100px!important;
 	}
