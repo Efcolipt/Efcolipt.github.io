@@ -73,9 +73,6 @@
 	.show--about--port p{
 		font-size: 14px!important;
 	}
-	#start--block{
-		padding-top: 0!important;
-	}
 	.content--start > h1{
 		margin: 45px 0px 0px 0px;
 	}
@@ -90,5 +87,24 @@
 	}
 	#our--portfolio{
 		padding-top: 40px!important;
+	}
+}
+@media only screen and (max-width: 800px){
+	.img--title> img {
+	    height: 225px!important;
+	}
+	.port--worker {
+	    height: 225px!important;
+	}
+	.info--about--team{
+		flex-direction: column;
+	}
+	.copy > p, .our--vk{
+		margin-top: 10px;
+		margin-left: 0!important;
+		display: block!important;
+	}
+	.copy > p{
+		margin-bottom: 10px;
 	}
 }
