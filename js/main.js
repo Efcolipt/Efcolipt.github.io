@@ -3,11 +3,11 @@ $(document).ready(function () {
 		  $hamburger.on("click", function(e) {
 		  	if ($menu.hasClass('active--menu')) {
 		  		$switching = false;
-		  		$menu.slideUp('100');
+		  		$menu.stop(false, true).slideToggle(300);
 		  		$menu.removeClass('active--menu');
 		  		$('body').css({"overflow-y":"scroll"});
 		  	}else{
-		  		$menu.slideDown('200');
+		  		$menu.stop(false, true).slideToggle(300);
 		  		$('body').css({"overflow":"hidden"});
 		  		$switching = true;
 		  		$menu.addClass('active--menu');
