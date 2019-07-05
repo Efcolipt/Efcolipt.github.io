@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1230px){
 	#start--block{
 		height: 50vh!important;
-	    background-size: 67%!important;
+	    background-size: 72%!important;
 	}
 	h1{
 		font-size: 55px!important;
@@ -20,6 +20,9 @@
 	}
 	#our--portfolio{
 		padding-top: 0!important;
+	}
+	.content--start {
+	    padding-top: 100px!important;
 	}
 }
 

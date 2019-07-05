@@ -145,7 +145,7 @@ header{
     background: url(../img/bg--start.png) right no-repeat;
 }
 .content--start {
-	padding-top: 50px;
+	padding-top: 150px;
 }
 .content--start > h1 {
 	line-height: 110%;
