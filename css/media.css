@@ -51,9 +51,6 @@
 	}
 }
 @media only screen and (max-width: 872px){
-	#start--block{
-		padding-top: 0!important;
-	}
 	.img--title> img {
 	    height: 260px!important;
 	}
@@ -71,9 +68,6 @@
 	}
 	.show--about--port p{
 		font-size: 14px!important;
-	}
-	.content--start > h1{
-		margin: 45px 0px 0px 0px;
 	}
 	h1 {
 	    font-size: 50px!important;
