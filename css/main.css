@@ -212,6 +212,8 @@ header{
 .container--for--port{
     max-width: 650px;
 	margin: 0 auto;
+	padding-right: 25px;
+	padding-left: 25px;
 	position: relative;
 }
 .about--this--site{
