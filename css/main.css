@@ -246,6 +246,7 @@ header{
 .container--for--port{
     max-width: 650px;
 	margin: 0 auto;
+	height: 100%;
 	padding-right: 25px;
 	padding-left: 25px;
 	position: relative;
@@ -256,6 +257,9 @@ header{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
 	justify-content: space-between;
 }
 .about--this--site > a {
