@@ -178,8 +178,14 @@ header{
     width: 100%;
 }
 .img--title> img {
-	height: 100%;
     width: 100%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .port--worker{
