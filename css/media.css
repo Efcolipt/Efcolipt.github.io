@@ -238,11 +238,9 @@
 
 
 @media only screen and (max-width: 445px){
-	h1 {
-	    font-size: 25px!important;
-	}
+
 	.content--start > p {
-	    font-size: 12px!important;
+	    font-size: 16px!important;
 	}
 	#testimonials{
 		text-align: center;
