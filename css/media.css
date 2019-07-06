@@ -46,9 +46,7 @@
 @media only screen and (max-width: 872px){
 
 
-	.show--about--port h3{
-		margin-top: 25px!important;
-	}
+
 	h3{
 		font-size: 35px!important;
 	}
@@ -124,9 +122,6 @@
 	    font-size: 39px!important;
 	}	
 
-	.show--about--port h3 {
-	    margin-top: 15px!important;
-	}
 	.show--about--port p {
 	    font-size: 13px!important;
 	}
@@ -166,9 +161,7 @@
 	h3 {
 	    font-size: 32px!important;
 	}
-	.show--about--port h3 {
-	    margin-top: 30px!important;
-	}
+
 	.testimonial--people > div:first-child {
 	    margin-right: 25px!important;
 	}
