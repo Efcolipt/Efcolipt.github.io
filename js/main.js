@@ -5,10 +5,10 @@ $(document).ready(function () {
 		  		$switching = false;
 		  		$menu.stop(false, true).slideToggle(300);
 		  		$menu.removeClass('active--menu');
-		  		$('body').css({"overflow-y":"scroll"});
+		  		// $('body').css({"overflow-y":"scroll"});
 		  	}else{
 		  		$menu.stop(false, true).slideToggle(300);
-		  		$('body').css({"overflow":"hidden"});
+		  		// $('body').css({"overflow":"hidden"});
 		  		$switching = true;
 		  		$menu.addClass('active--menu');
 		  	}
@@ -55,7 +55,7 @@ $(document).ready(function () {
 		  	 menu.slideUp('100');
 		  	 $switching = false;
 		  	 menu.removeClass('active--menu');
-		  	 $('body').css({"overflow-y":"scroll"});
+		  	 // $('body').css({"overflow-y":"scroll"});
 		  	 $hamburger.removeClass('is-active');
 		  });
 
