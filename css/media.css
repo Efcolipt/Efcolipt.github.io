@@ -338,4 +338,7 @@
 		padding: 10px 50px!important;
 		
 	}
+	.menu--modal--content{
+		margin-top: 80px !important;
+	}
 }
