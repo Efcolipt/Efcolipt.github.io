@@ -95,10 +95,19 @@
 	.copy > p, .our--vk{
 		margin-top: 10px;
 		margin-left: 0!important;
-		display: block!important;
 	}
-	.copy > p{
-		margin-bottom: 10px;
+	.our--vk{
+		width: 24px;
+	}
+	.copy{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	.content--start > p {
 	    font-size: 20px!important;
