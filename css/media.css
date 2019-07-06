@@ -117,7 +117,9 @@
 	}
 }
 @media only screen and (max-width: 705px){
-
+	.port--worker{
+		width: 100%!important;
+	}
 	.content--start > p {
 	    font-size: 16px!important;
 	}	
