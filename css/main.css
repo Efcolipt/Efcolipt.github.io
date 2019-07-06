@@ -175,13 +175,26 @@ header{
 }
 .img--title{
     width: 100%;
+    padding-bottom: 50.23183925811437%;
+    height: auto;
+    position: relative;
 }
 .img--title> img {
     width: 100%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
+    /* position: absolute; */
+    height: 100%;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
