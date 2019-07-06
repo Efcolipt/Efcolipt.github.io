@@ -362,6 +362,24 @@ header{
 	display: -o-flex;
 	display: flex;
 }
+.title--testimonial > p {
+	font-size: 24px;
+	font-weight: bold;
+	color:#fff;
+}
+.person--testimonial{
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.testimonial--people > div:first-child{
+	margin-right: 70px;
+}
+.txt--testimonial{
+	color:#fff;
+	font-style: italic;
+	font-size: 18px;
+	margin-top: 12px;
+}
 
 /*Price*/
 #price{
