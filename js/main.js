@@ -57,7 +57,7 @@ $(document).ready(function () {
 
 		 
 			  $('.testimonial').slick({
-			    autoplay: true,
+			    autoplay: false,
 			    autoplaySpeed: 7000
 			  });
 		
