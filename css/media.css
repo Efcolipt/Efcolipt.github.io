@@ -276,9 +276,9 @@
 		font-size: 16px !important;
 	}
 	#start--block{
-		padding-bottom: 90px!important;
+		padding-bottom: 130px!important;
 	    position: relative!important;
-	    padding-top: 150px!important;
+	    padding-top: 180px!important;
 	    background-size: 130%!important;
 	}
 	.content--start{
@@ -287,9 +287,41 @@
 	    bottom: 0;
 	    left: 0;
 	    text-align: center;
-	    padding-top: 20px;
+	    padding-top: 50px;
 	    color: #e6e6e6;
 	    right: 0;
 	    background: #000000b3;
+	}
+}
+@media only screen and (max-width: 380px){
+	.menu--element > p {
+		display: none;
+	}
+	.menu--modal--content > ul > li > a {
+	    font-size: 24px!important;
+	}
+	.fast--info{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+	}
+	.email{
+		margin-left: 0 !important;
+		margin-top: 5px !important;
+	}
+	.show--about--port {
+	    padding-top: 10px !important;
+	}
+	.show--about--port p {
+	    font-size: 12px!important;
+	}
+	.show--about--port p{
+		margin-top: 10px !important;
+	}
+	.about--this--site > a{
+		font-size: 14px !important;
 	}
 }
