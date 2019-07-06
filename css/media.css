@@ -13,6 +13,9 @@
 	#start--block{
 		padding-top: 100px!important;
 	}
+	.show--about--port {
+		padding-top: 30px !important;
+	}
 }
 
 @media only screen and (max-width: 992px){
