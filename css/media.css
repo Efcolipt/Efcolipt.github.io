@@ -350,4 +350,7 @@
 	.hamburger-box{
 		width: 30px !important;
 	}
+	.copy > p, .our--vk{
+		text-align: center;
+	}
 }
