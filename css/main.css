@@ -355,7 +355,7 @@ header{
 	display: -o-flex;
 	display: flex;
 }
-.person--testimonial{
+.testimonial--people{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
