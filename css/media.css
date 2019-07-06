@@ -207,6 +207,7 @@
 	    font-size: 28px!important;
 	}
 	.inp--contact > input{
+		width: auto!important;
 		margin-right: 0!important;
 	}
 	.inp--contact  {
