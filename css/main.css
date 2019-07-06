@@ -374,6 +374,7 @@ header{
 	margin-right: 70px;
 }
 .about--person--testimonail > span{
+	display: inline-block;
 	color:#fff;
 }
 .txt--testimonial > p{
@@ -382,7 +383,9 @@ header{
 	font-size: 18px;
 	margin-top: 12px;
 }
-
+.slick-slide img{
+	display: inline-block!important;
+}
 /*Price*/
 #price{
 	padding-top: 70px;
