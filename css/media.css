@@ -247,4 +247,34 @@
 	#testimonials{
 		text-align: center;
 	}
+	h2 {
+	    font-size: 25px!important;
+	}
+	.idea--contact p {
+	    font-size: 14px !important;
+	}
+	.cost--this--block{
+		font-size: 20px !important;
+	}
+	.content--price--block > img {
+		width: 50%;
+	}
+	.title--price {
+	    font-size: 18px !important;
+	}
+	.txt--testimonial > p {
+	    font-size: 13px!important;
+	}
+	.about--person--testimonail > span:nth-child(2) {
+	    font-size: 12px!important;
+	}
+	.title--testimonial > p {
+	    font-size: 18px!important;
+	}
+	.about--this--benefits{
+		font-size: 14px !important;
+	}
+	.benefits--this--title{
+		font-size: 16px !important;
+	}
 }
