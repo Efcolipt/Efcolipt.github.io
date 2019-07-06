@@ -361,8 +361,6 @@ header{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
 }
 
 /*Price*/
