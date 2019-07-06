@@ -341,4 +341,13 @@
 	.menu--modal--content{
 		margin-top: 80px !important;
 	}
+	.logo > a {
+	    font-size: 24px!important;
+	}
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+		width: 30px !important;
+	}
+	.hamburger-box{
+		width: 30px !important;
+	}
 }
