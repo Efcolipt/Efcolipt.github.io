@@ -55,4 +55,10 @@ $(document).ready(function () {
 		  	 $hamburger.removeClass('is-active');
 		  });
 
+		 
+			  $('.testimonial').slick({
+			    autoplay: true
+			  });
+		
+
 });
