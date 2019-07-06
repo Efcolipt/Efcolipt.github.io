@@ -373,6 +373,9 @@ header{
 .testimonial--people > div:first-child{
 	margin-right: 70px;
 }
+.about--person--testimonail > span:nth-child(2){
+	font-size: 14px;
+}
 .about--person--testimonail > span{
 	display: inline-block;
 	color:#fff;
