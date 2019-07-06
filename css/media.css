@@ -186,7 +186,7 @@
 	    font-size: 14px!important;
 	}
 	.btn--all--portfolio{
-		margin-top: 0 !important;
+		margin-top: 20px !important;
 	}
 	.btn--defualt {
 	      padding: 8px 17px!important;
@@ -230,5 +230,21 @@
 	.about--person > .work--person{
 		font-size: 14px!important;
 		margin-bottom: 30px !important;
+	}
+	.menu--element{
+		margin-left: 0 !important;
+	}
+}
+
+
+@media only screen and (max-width: 445px){
+	h1 {
+	    font-size: 25px!important;
+	}
+	.content--start > p {
+	    font-size: 12px!important;
+	}
+	#testimonials{
+		text-align: center;
 	}
 }

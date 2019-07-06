@@ -265,6 +265,7 @@ header{
 .about--this--site > a {
 	text-decoration: underline;
 	color:#03ACC1;
+	margin-left: 10px;
 }
 /*Our Team*/
 
