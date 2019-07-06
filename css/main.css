@@ -202,9 +202,10 @@ header{
 
 .port--worker{
 	width: 50%;
-	float:left;
-	vertical-align: bottom;
-	position: relative;
+    float: left;
+    vertical-align: bottom;
+    position: relative;
+    display: inline-block;
 }
 .show--about--port{
 	display: none;
