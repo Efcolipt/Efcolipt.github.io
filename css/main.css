@@ -374,10 +374,10 @@ header{
 .testimonial--people > div:first-child{
 	margin-right: 70px;
 }
-.about--person--testimonail{
+.about--person--testimonail > span{
 	color:#fff;
 }
-.txt--testimonial{
+.txt--testimonial > p{
 	color:#fff;
 	font-style: italic;
 	font-size: 18px;
