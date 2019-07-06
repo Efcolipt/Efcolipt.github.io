@@ -389,6 +389,13 @@ header{
 .slick-slide img{
 	display: inline-block!important;
 }
+.slick-arrow{
+	position: absolute;
+	top: 50px;
+}
+.slick-prev{
+	right: 0;
+}
 /*Price*/
 #price{
 	padding-top: 70px;
