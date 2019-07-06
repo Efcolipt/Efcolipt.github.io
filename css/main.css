@@ -393,7 +393,12 @@ header{
 .slick-slide img{
 	display: inline-block!important;
 }
-
+.btn--all--portfolio{
+	text-align: center;
+}
+.btn--all--portfolio> a {
+	color:#fff;
+}
 /*Price*/
 #price{
 	padding-top: 70px;
