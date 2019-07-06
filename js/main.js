@@ -55,7 +55,7 @@ $(document).ready(function () {
 		  	 menu.slideUp('100');
 		  	 $switching = false;
 		  	 menu.removeClass('active--menu');
-		  	 $('body').css({"overflow":"scroll"});
+		  	 $('body').css({"overflow-y":"scroll"});
 		  	 $hamburger.removeClass('is-active');
 		  });
 
