@@ -118,6 +118,9 @@
 	.inp--contact > input {
 	    width: 40.5%!important;
 	}
+		.idea--contact{
+		margin-right: 0!important;
+	}
 	small{
 		font-size: 12px !important;
 	}
@@ -180,8 +183,5 @@
 	}
 	h2 {
 	    font-size: 32px!important;
-	}
-	.idea--contact{
-		margin-right: 0!important;
 	}
 }
