@@ -26,13 +26,13 @@ $(document).ready(function () {
 		  $('.question').click(function(){
 		  	var data_id = $(this).find('.answere--question').attr('data-id');
 		  	if (data_id == 0) {
-		  			$(this).find('.answere--question').slideDown('slow').attr('data-id',1);
+		  			$(this).find('.answere--question').stop(false, true).slideToggle(300).attr('data-id',1);
 		  			$(this).find('.icon--close_open > img').addClass('rotate-close').removeClass('rotate-open');
 		  			
 
 		  	}else{
 		  			$(this).find('.icon--close_open > img').addClass('rotate-open').removeClass('rotate-close');
-		  			$(this).find('.answere--question').slideUp('slow').attr('data-id',0);
+		  			$(this).find('.answere--question').stop(false, true).slideToggle(300).attr('data-id',0);
 			}
 
 
