@@ -403,6 +403,12 @@ header{
 .btn--all--portfolio> a {
 	color:#fff;
 }
+.slick-arrow{
+	transition: all .3s ease;
+}
+.slick-arrow:hover{
+	opacity: .8;
+}
 /*Price*/
 #price{
 	padding-top: 70px;
