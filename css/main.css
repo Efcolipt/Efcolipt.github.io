@@ -223,6 +223,7 @@ header{
 }
 .show--about--port{
 	display: none;
+	padding-top: 60px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -231,7 +232,6 @@ header{
 	background:#131418;
 }
 .show--about--port h3 {
-	margin-top: 60px;
 	color: #03ACC1;
 	font-weight: 600;
 }
@@ -257,7 +257,6 @@ header{
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 170px;
 }
 .about--this--site > a {
 	text-decoration: underline;
