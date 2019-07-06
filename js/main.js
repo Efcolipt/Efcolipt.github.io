@@ -60,7 +60,7 @@ $(document).ready(function () {
 			    autoplay: false,
 			    autoplaySpeed: 7000,
 			    nextArrow: '<img src="../img/arrow-right.png" class="slick-next" alt="arrow-right" />',
-			    prevArrow: '<img src="../img/arrow-left.png" class="slick-next" alt="arrow-left" />',
+			    prevArrow: '<img src="../img/arrow-left.png" class="slick-next" alt="arrow-left" />'
 			  });
 		
 
