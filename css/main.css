@@ -14,7 +14,7 @@ a{
 body{
 	transition: all.3s ease;
 }
-p,span,button{
+p,span,button,pre{
 	font-family: 'Fira Sans', sans-serif;
 	font-style: normal;
 }
