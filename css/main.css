@@ -40,6 +40,19 @@ h3{
 	text-align:center;
 }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
 /*Menu hide*/
 .modal--menu{
 	display: none;
@@ -179,6 +192,7 @@ header{
     height: auto;
     position: relative;
 }
+
 .img--title> img {
     width: 100%;
     top: 0;
