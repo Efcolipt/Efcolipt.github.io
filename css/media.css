@@ -115,4 +115,70 @@
 	h1 {
 	    font-size: 45px!important;
 	}
+	.inp--contact > input {
+	    width: 40.5%!important;
+	}
+	small{
+		font-size: 12px !important;
+	}
+	h3 {
+	    font-size: 30px!important;
+	}
+	#start--block {
+		padding-top: 35px!important;
+	    padding-top: 35px!important;
+	}
+}
+@media only screen and (max-width: 705px){
+
+	.content--start > p {
+	    font-size: 16px!important;
+	}	
+	
+	h1 {
+	    font-size: 39px!important;
+	}	
+
+	.img--title> img {
+	    height: 200px!important;
+	}
+	.port--worker {
+	    height: 200px!important;
+	}
+	.show--about--port h3 {
+	    margin-top: 15px!important;
+	}
+	.about--this--site {
+	    margin-top: 24px!important;
+	}
+	.show--about--port p {
+	    font-size: 13px!important;
+	}
+	.person--testimonial{
+		padding: 0!important;
+	}
+	.title--testimonial > p{
+		font-size: 20px!important;
+	}
+	.txt--testimonial > p {
+		font-size: 14px!important;
+	}
+	.testimonail > span:nth-child(2) {
+	    font-size: 12px!important;
+	}
+	.btn--defualt{
+		font-size: 14px!important;
+	}
+	.logo > a{
+		font-size: 30px!important;
+	}
+	.menu--modal--content {
+	    margin-top: 150px!important;
+	}
+	.menu--modal--content > ul > li > a{
+		font-size: 30px!important;
+	}
+	h2 {
+	    font-size: 32px!important;
+	}
 }
