@@ -277,4 +277,21 @@
 	.benefits--this--title{
 		font-size: 16px !important;
 	}
+	#start--block{
+		padding-bottom: 90px!important;
+	    position: relative!important;
+	    padding-top: 150px!important;
+	    background-size: 130%!important;
+	}
+	.content--start{
+		position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	    padding-top: 20px;
+	    color: #e6e6e6;
+	    right: 0;
+	    background: #000000b3;
+	}
 }
