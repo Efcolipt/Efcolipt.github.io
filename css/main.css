@@ -177,15 +177,17 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 }
+.img--title{
+	position: absolute;
+    width: 100%;
+}
 .img--title> img {
-	width: 100%;
-	height: 406px;
+    width: 100%;
 }
 
 .port--worker{
 	width: 50%;
 	position: relative;
-	height: 406px;
 }
 .show--about--port{
 	display: none;
