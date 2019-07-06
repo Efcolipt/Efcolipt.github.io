@@ -206,7 +206,15 @@
 	h3 {
 	    font-size: 28px!important;
 	}
-	.inp--contact > input {
-	    width: 93%!important;
+	.inp--contact > input{
+		margin-right: 0!important;
+	}
+	.inp--contact  {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
 	}
 }
