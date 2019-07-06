@@ -185,3 +185,27 @@
 	    font-size: 32px!important;
 	}
 }
+@media only screen and (max-width: 605px){
+	.port--worker{
+		width: 100%!important;
+		 height: 280px!important;
+	}
+	.img--title> img {
+	    height: 280px!important;
+	}
+	.about--this--site {
+	    margin-top: 105px!important;
+	}
+	.show--about--port p {
+	    font-size: 14px!important;
+	}
+	h3 {
+	    font-size: 32px!important;
+	}
+	.show--about--port h3 {
+	    margin-top: 30px!important;
+	}
+	.testimonial--people > div:first-child {
+	    margin-right: 25px!important;
+	}
+}
