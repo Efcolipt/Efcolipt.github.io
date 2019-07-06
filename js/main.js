@@ -59,8 +59,8 @@ $(document).ready(function () {
 			  $('.testimonial').slick({
 			    autoplay: false,
 			    autoplaySpeed: 7000,
-			    nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" />',
-			    prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-next" alt="arrow-left" />'
+			    nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px;" />',
+			    prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-next" alt="arrow-left" style="position:absolute; top:50px; right:0;" />'
 			  });
 		
 
