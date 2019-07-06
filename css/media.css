@@ -328,4 +328,14 @@
 		padding-right: 5px !important;
 		padding-left: 5px !important;
 	}
+	.title--question{
+		font-size: 16px !important;
+	}
+	.answere--question{
+		font-size: 14px !important;
+	}
+	.custom--btn{
+		padding: 10px 50px!important;
+		
+	}
 }
