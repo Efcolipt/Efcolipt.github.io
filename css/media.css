@@ -199,4 +199,24 @@
 		display: flex;
 		flex-direction: column;
 	}
+	.idea--contact p{
+		font-size: 16px !important;
+	}
+	.title--price{
+		font-size: 20px !important;
+	}
+	.person{
+		padding: 30px 60px 50px 60px!important;
+	}
+	.img--person > img {
+	    width: 120px!important;
+	    height: 120px!important;
+	}
+	.about--person > .name--person{
+		font-size: 20px!important;
+	}
+	.about--person > .work--person{
+		font-size: 14px!important;
+		margin-bottom: 30px !important;
+	}
 }
