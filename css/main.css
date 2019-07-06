@@ -342,6 +342,10 @@ header{
 	padding-top: 70px;
 	padding-bottom: 80px;
 }
+.testimonial{
+	padding-left: 35px;
+    padding-right: 35px;
+}
 #testimonials  h2 {
 	color:#fff;
 	text-align: center;
