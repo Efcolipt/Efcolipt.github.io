@@ -217,7 +217,7 @@
 	    font-size: 14px!important;
 	}
 	.btn--all--portfolio{
-		margin-top: 20px !important;
+		margin-top:30px !important;
 	}
 	.btn--defualt {
 	      padding: 8px 17px!important;
@@ -372,5 +372,8 @@
 	}
 	.copy > p, .our--vk{
 		text-align: center;
+	}
+	.block--inps{
+		padding: 0 !important;
 	}
 }
