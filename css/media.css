@@ -186,6 +186,7 @@
 		width: auto !important;
 	}
 	.send--msg--inp{
+		text-align: center;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
