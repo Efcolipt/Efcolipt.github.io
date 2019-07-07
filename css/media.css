@@ -172,9 +172,6 @@
 	    font-size: 32px!important;
 	}
 
-	.testimonial--people > div:first-child {
-	    margin-right: 25px!important;
-	}
 	.btn--callback{
 		display: none!important;
 	}
