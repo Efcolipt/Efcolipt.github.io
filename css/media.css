@@ -1,17 +1,13 @@
 @media only screen and (max-width: 1230px){
 	#start--block{
 	    background-size: 72%!important;
+	    padding-top: 100px!important;
 	}
 	h1{
 		font-size: 55px!important;
 	}
 	.content--start > p{
 		font-size: 24px!important;
-	}
-
-
-	#start--block{
-		padding-top: 100px!important;
 	}
 	.show--about--port {
 		padding-top: 30px !important;
@@ -307,6 +303,7 @@
 		position: absolute;
 	    top: 0;
 	    bottom: 0;
+	    сolor:#fff!important;
 	    left: 0;
 	    text-align: center;
 	    padding-top: 50px;
