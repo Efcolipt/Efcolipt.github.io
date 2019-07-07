@@ -499,6 +499,8 @@ header{
 	margin-bottom: 32px;
 }
 .cost--this--block{
+	font-family: "Montserrat",sans-serif;
+	font-weight: normal;
 	margin-top: 35px;
 	font-weight: 500;
 	font-size: 24px;
