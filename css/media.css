@@ -192,9 +192,7 @@
 		display: -o-flex;
 		display: flex;
 		margin: 15px auto 0px auto !important;
-	}
-	.send--msg--inp{
-		flex-direction: column;
+				flex-direction: column;
 		margin-top: 30px !important;
 	}
 		.inp--contact  {
