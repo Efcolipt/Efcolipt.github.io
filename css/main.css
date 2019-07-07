@@ -598,7 +598,15 @@ header{
 	padding-right: 15px;
 	padding-left: 15px;
 }
-.inp--contact >  input{
+.block--inps:first-child{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.inp--contact  input{
 	display: inline-block;
 	transition: all.3s ease;
 	background: inherit;
