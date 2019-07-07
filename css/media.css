@@ -206,8 +206,8 @@
 	h1 {
 	    font-size: 30px!important;
 	}
-	.testimonial--people > div:first-child{
-		display: none !important;
+	.person--testimonial:nth-child(2){
+		display: none!important;
 	}
 	.content--start > p {
 	    font-size: 14px!important;
