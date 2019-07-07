@@ -282,6 +282,7 @@ header{
 #our--team{
 	background: url('../img/bg--all/bg.png');
 	padding-top: 68px;
+	padding-bottom: 118px;
 }
 #our--team  h2 {
 	font-weight: 800;
