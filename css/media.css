@@ -25,6 +25,7 @@
 		
 	.idea--contact{
 		margin-right: 0 !important;
+		text-align: center!important;
 	}
 	.img--title{
 		height: 295px !important;
@@ -37,7 +38,6 @@
 		margin-top: 40px;
 	}
 	.contact--content{
-		text-align: center;
 		flex-direction: column;
 	}
 	.contact--content > form {
