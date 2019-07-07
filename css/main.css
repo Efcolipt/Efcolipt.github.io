@@ -172,7 +172,7 @@ header{
 /*Section Our Portfolio*/
 
 #our--portfolio{
-	padding-top: 60px;
+	padding-top: 68px;
 }
 #our--portfolio > h2 {
 	padding-bottom: 60px;
@@ -270,8 +270,8 @@ header{
 /*Our Team*/
 
 #our--team{
-	background: #131418;
-	padding-top: 70px;
+	background: ulr('../img/bg--all/bg.png');
+	padding-top: 68px;
 	padding-bottom: 80px;
 }
 #our--team  h2 {
@@ -379,8 +379,8 @@ header{
 
 
 #testimonials{
-	background: #131418;
-	padding-top: 70px;
+	background: url('../img/bg--all/bg.png');
+	padding-top: 68px;
 	padding-bottom: 80px;
 }
 .testimonial{
@@ -553,8 +553,8 @@ header{
 /* Contact */
 
 #contact{
-	background: rgb(19,20,24);
-	padding-top: 70px;
+	background: url('../img/bg--all/bg.png');
+	padding-top: 68px;
 	padding-bottom: 80px;
 }
 .idea--contact{
@@ -647,9 +647,9 @@ header{
 
 #copy--team{
 	border-top: 1px solid  #555555;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background:#131418;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	background:url("../img/bg--all/bg.png");
 }
 .info--about--team{
 	display: -webkit-flex;
