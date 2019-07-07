@@ -270,7 +270,7 @@ header{
 /*Our Team*/
 
 #our--team{
-	background: ulr('../img/bg--all/bg.png');
+	background: url('../img/bg--all/bg.png');
 	padding-top: 68px;
 	padding-bottom: 80px;
 }
