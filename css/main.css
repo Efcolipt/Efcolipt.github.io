@@ -6,7 +6,7 @@
 	outline: none;
 }
 a{
-	transition: all.5s ease;
+	transition: all.3s ease;
 	
 }
 
@@ -81,7 +81,7 @@ h3{
 .menu--modal--content > ul > li {
 	display: inline-block;
 	margin-right: 30px;
-	transition: all.1s ease-in-out;
+	transition: all.5s ease-in-out;
 }
 .menu--modal--content > ul > li:hover{
 	border-bottom:2px solid #000;
