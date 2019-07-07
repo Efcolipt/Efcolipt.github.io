@@ -363,6 +363,10 @@ header{
 .img--benefits{
 	margin-right: 25px;
 }
+.img--benefits > img {
+	width: 63px;
+	height: 65px;
+}
 .benefits--this--title{
 	font-size: 17px;
 	margin-bottom: 5px;
@@ -621,7 +625,6 @@ header{
 	margin-top: 15px;
 	margin-right: 20px;
 	margin-bottom: 15px;
-	width: 100%;
 	font-size: 14px;
 }
 
