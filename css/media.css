@@ -206,7 +206,7 @@
 	h1 {
 	    font-size: 30px!important;
 	}
-	.person--testimonial:nth-child(2){
+	.person--testimonial:nth-child(2n){
 		display: none!important;
 	}
 	.content--start > p {
