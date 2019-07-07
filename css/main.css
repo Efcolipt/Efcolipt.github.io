@@ -185,9 +185,8 @@ header{
 #our--portfolio{
 	padding-top: 68px;
 }
-#our--portfolio > h2 {
+#our--portfolio h2 {
 	color:#262626;
-	padding-bottom: 60px;
 }
 .download--portfolio{
 	margin-top: 68px;
