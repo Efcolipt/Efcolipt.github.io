@@ -197,6 +197,9 @@
 	.block--inps > input{
 		margin-right: 0!important;
 	}
+	.block--inps {
+		width: auto !important;
+	}
 	.inp--contact  {
 		flex-direction: column;
 	}
