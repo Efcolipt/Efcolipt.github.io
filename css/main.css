@@ -65,8 +65,16 @@ h3{
     top: 88px;
 }
 .menu--modal--content{
-	margin-top: 300px;
 	text-align: center;
+}
+.menu--modal--content > ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .menu--modal--content > ul > li {

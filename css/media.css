@@ -38,13 +38,12 @@
 		margin-top: 50px;
 	}
 	.menu--modal--content > ul > li{
-		display: block!important;
 		margin-top: 20px;
 		margin-right: 0!important;
+	}	.menu--modal--content > ul {
+		flex-direction: column;
 	}
-	.menu--modal--content{
-		margin-top: 200px!important;
-	}
+
 }
 @media only screen and (max-width: 872px){
 
@@ -146,9 +145,7 @@
 	.logo > a{
 		font-size: 30px!important;
 	}
-	.menu--modal--content {
-	    margin-top: 150px!important;
-	}
+
 	.menu--modal--content > ul > li > a{
 		font-size: 30px!important;
 	}
@@ -335,9 +332,7 @@
 		padding: 10px 50px!important;
 		
 	}
-	.menu--modal--content{
-		margin-top: 80px !important;
-	}
+
 	.logo > a {
 	    font-size: 24px!important;
 	}
