@@ -50,22 +50,6 @@
 		flex-direction: column;
 	}
 
-		.block--inps > input{
-		margin-right: 0!important;
-	}
-	.block--inps {
-		width: auto !important;
-	}
-	.send--msg--inp{
-		margin: 15px auto 0px auto !important;
-	}
-	.send--msg--inp{
-		flex-direction: column;
-		margin-top: 30px !important;
-	}
-		.inp--contact  {
-		flex-direction: column;
-	}
 
 }
 @media only screen and (max-width: 872px){
@@ -194,6 +178,27 @@
 	}
 	.btn--callback{
 		display: none!important;
+	}
+			.block--inps > input{
+		margin-right: 0!important;
+	}
+	.block--inps {
+		width: auto !important;
+	}
+	.send--msg--inp{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		margin: 15px auto 0px auto !important;
+	}
+	.send--msg--inp{
+		flex-direction: column;
+		margin-top: 30px !important;
+	}
+		.inp--contact  {
+		flex-direction: column;
 	}
 }
 @media only screen and (max-width: 560px){
