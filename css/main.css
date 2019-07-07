@@ -580,6 +580,7 @@ header{
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -597,6 +598,7 @@ header{
 .block--inps{
 	padding-right: 15px;
 	padding-left: 15px;
+	width: 100%;
 }
 .block--inps:first-child{
 	display: -webkit-flex;
@@ -621,6 +623,7 @@ header{
 	margin-top: 15px;
 	margin-right: 20px;
 	margin-bottom: 15px;
+	width: 100%;
 	font-size: 14px;
 }
 
@@ -637,16 +640,18 @@ header{
 	font-family: 'IBM Plex Sans', sans-serif;
 	text-transform:uppercase;
 	margin-top: 11px;
+
 }
 .custom--btn:hover{
 	background:#03ACC1;
 }
 .send--msg--inp{
-
-	color:#fff;
-	text-align: center;
-	margin: 30px auto;
-	max-width: 400px;
+    color: #fff;
+    /* text-align: center; */
+    /* margin: 30px auto; */
+    margin-left: auto;
+    margin-top: 44px;
+    max-width: 400px;
 }
 .offer{
 	cursor: pointer;
