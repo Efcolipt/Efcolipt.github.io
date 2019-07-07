@@ -227,6 +227,9 @@
     	padding-top: 30px!important;
     	padding-bottom: 20px!important;
 	}
+	.img--title{
+		width: 225px!important;
+	}
 	h3 {
 	    font-size: 28px!important;
 	}
@@ -344,8 +347,8 @@
 		font-size: 14px !important;
 	}
 	.container--for--port{
-		padding-right: 5px !important;
-		padding-left: 5px !important;
+		padding-right: 10px !important;
+		padding-left: 10px !important;
 	}
 	.title--question{
 		font-size: 16px !important;
