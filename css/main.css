@@ -116,11 +116,11 @@ h3{
 }
 
 .menu--modal--content > ul > li > a:hover::before{
-	width: 50%;
+	width: 100%;
 	right: 0;
 }
 .menu--modal--content > ul > li > a:hover::after{
-	width: 50%;
+	width: 100%;
 }
 
 /*Header*/
