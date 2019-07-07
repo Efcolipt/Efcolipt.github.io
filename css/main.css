@@ -189,9 +189,7 @@ header{
 .img--title {
     width: 100%;
     height: 700px;
-    background-repeat: no-repeat;
     background-size:100%;
-	background-position: center;
 }
 
 .img--title> img {
