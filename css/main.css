@@ -83,24 +83,27 @@ h3{
 	margin-right: 30px;
 	transition: all.3s ease-in-out;
 }
-.menu--modal--content > ul > li:hover{
-	border-bottom:2px solid #262626;
-}
+
 .menu--modal--content > ul > li > a {
 	font-size: 36px;
+	position: relative;
 	font-family: Fira Sans;
 	font-weight: bold;
 	color:#262626;
 }
-.menu--modal--content > ul > li > a::before:hover{
+
+.menu--modal--content > ul > li > a:hover:after{
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #262626; /*задаём цвет линии*/
 	content: "";
-	position: relative;
-	border-bottom:1px solid #262626;
+	transition: width 0.3s ease-out; /*задаём время анимации*/
 }
-.menu--modal--content > ul > li > a::after:hover{
-	content: "";
-	position: relative;
-	border-bottom:1px solid #262626;
+.menu--modal--content > ul > li > a:hover:after , .menu--modal--content > ul > li > a:focus:after{
+	width: 100%; 
 }
 /*Header*/
 header{
