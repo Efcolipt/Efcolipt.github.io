@@ -59,7 +59,8 @@ $(document).ready(function () {
 		  	 $hamburger.removeClass('is-active');
 		  });
 
-		 
+			 if ($(window).width() > 700) {
+
 			  $('.testimonial').slick({
 			    autoplay: true,
 			    autoplaySpeed: 7000,
@@ -68,6 +69,16 @@ $(document).ready(function () {
 			    slidesToShow: 2,
   				slidesToScroll: 1
 			  });
+			 }else{
+			 	  $('.testimonial').slick({
+				    autoplay: true,
+				    autoplaySpeed: 7000,
+				    nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
+				    prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
+				    slidesToShow: 1,
+	  				slidesToScroll: 1
+				  });
+			 }
 			  $(".phone").mask("+7(999)999-99-99");
 		
 
