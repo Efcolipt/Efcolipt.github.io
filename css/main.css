@@ -84,13 +84,13 @@ h3{
 	transition: all.3s ease-in-out;
 }
 .menu--modal--content > ul > li:hover{
-	border-bottom:2px solid #000;
+	border-bottom:2px solid #262626;
 }
 .menu--modal--content > ul > li > a {
 	font-size: 36px;
 	font-family: Fira Sans;
 	font-weight: bold;
-	color:#000;
+	color:#262626;
 }
 /*Header*/
 header{
