@@ -193,10 +193,12 @@
 		display: flex;
 		margin: 15px auto 0px auto !important;
 				flex-direction: column;
-		margin-top: 30px !important;
 	}
 		.inp--contact  {
 		flex-direction: column;
+	}
+	.custom--btn{
+		margin-top: 30px !important;
 	}
 }
 @media only screen and (max-width: 560px){
