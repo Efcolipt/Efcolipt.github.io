@@ -64,19 +64,20 @@ h3{
     bottom: 0;
     top: 88px;
 }
-.menu--modal--content{
-	text-align: center;
-}
+
 .menu--modal--content > ul {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	height: 75vh;
 	align-items: center;
 	justify-content: center;
 }
-
+.menu--modal--content > ul > li:last-child{
+	margin-right: 0!important;
+}
 .menu--modal--content > ul > li {
 	display: inline-block;
 	margin-right: 30px;
