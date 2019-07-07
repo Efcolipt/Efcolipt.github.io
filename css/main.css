@@ -593,7 +593,6 @@ header{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	text-align: center;
 }
 .block--inps{
 	padding-right: 15px;
