@@ -422,8 +422,8 @@ header{
 	color:#fff;
 }
 .person--testimonial{
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .testimonial--people > div:first-child{
 	margin-right: 125px;
