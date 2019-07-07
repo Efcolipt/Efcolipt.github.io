@@ -16,12 +16,18 @@
 	.show--about--port {
 		padding-top: 30px !important;
 	}
+	.img--title{
+		height: 400px !important;
+	}
 }
 
 @media only screen and (max-width: 992px){
 		
 	.idea--contact{
 		margin-right: 0 !important;
+	}
+	.img--title{
+		height: 295px !important;
 	}
 	.person{
 		margin-right: 0!important;
@@ -95,9 +101,6 @@
 	h1 {
 	    font-size: 45px!important;
 	}
-	.inp--contact > input {
-	    width: 40.5%!important;
-	}
 		.idea--contact{
 		margin-right: 0!important;
 	}
@@ -111,10 +114,17 @@
 		padding-top: 35px!important;
 	    padding-bottom: 35px!important;
 	}
+	.img--title{
+		height: 225px !important;
+	}
+
 }
 @media only screen and (max-width: 705px){
 	.port--worker{
 		width: 100%!important;
+	}
+	.img--title{
+		height: 355px !important;
 	}
 	.content--start > p {
 	    font-size: 16px!important;
