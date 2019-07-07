@@ -92,19 +92,36 @@ h3{
 	color:#262626;
 }
 
-.menu--modal--content > ul > li > a:hover:after{
+.menu--modal--content > ul > li > a::after{
 	display: block;
 	position: absolute;
-	right:0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-	width: 0;/*задаём длинну линии до наведения курсора*/
-	height: 2px; /*задаём ширину линии*/
-	background-color: #262626; /*задаём цвет линии*/
 	content: "";
-	transition: width 0.3s ease-out; /*задаём время анимации*/
+	height: 2px;
+	width: 0;
+	background-color: #262626;
+	transition: width .5s ease-in-out;
+	left: 50%;
+	bottom: 0;
+}.menu--modal--content > ul > li > a::before{
+	display: block;
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 0;
+	background-color: #262626;
+		transition: width .5s ease-in-out, left .5s ease-in-out;
+	left: 50%;
+	bottom: 0;
 }
-.menu--modal--content > ul > li > a:hover:after , .menu--modal--content > ul > li > a:focus:after{
-	width: 100%; 
+
+.menu--modal--content > ul > li > a:hover::before{
+width: 50%;
+left: 0;
 }
+.menu--modal--content > ul > li > a:hover::after{
+width: 50%;
+}
+
 /*Header*/
 header{
 	background: #fff;
