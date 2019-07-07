@@ -415,13 +415,7 @@ header{
 	display: -o-flex;
 	display: flex;
 }
-.testimonial--people{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-}
+
 .title--testimonial > p {
 	font-size: 24px;
 	font-weight: bold;
