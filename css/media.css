@@ -19,6 +19,9 @@
 	.img--title{
 		height: 400px !important;
 	}
+	.send--msg--inp > small {
+		font-size: 12px !important;
+	}
 }
 
 @media only screen and (max-width: 992px){
