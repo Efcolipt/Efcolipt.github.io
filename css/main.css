@@ -264,6 +264,7 @@ header{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	width: 92%;
 	position: absolute;
 	bottom: 15px;
 	align-items:center;
