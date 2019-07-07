@@ -594,17 +594,16 @@ header{
 	display: -o-flex;
 	display: flex;
 }
+
 .block--inps{
-	padding-right: 15px;
-	padding-left: 15px;
-	width: 100%;
-}
-.block--inps:first-child{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 100%;
 	flex-direction: column;
 }
 .inp--contact  input{
