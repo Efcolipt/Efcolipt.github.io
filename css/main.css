@@ -182,15 +182,12 @@ header{
 	margin-bottom: 131px;
 }
 .work{
-	margin-top: 60px;
+	margin-top: 58px;
 	width: 100%;
 	height: 100%;
 }
 .img--title{
-    width: 100%;
-    padding-bottom: 50.23183925811437%;
-    height: auto;
-    position: relative;
+	
 }
 
 .img--title> img {
@@ -272,7 +269,7 @@ header{
 #our--team{
 	background: url('../img/bg--all/bg.png');
 	padding-top: 68px;
-	padding-bottom: 80px;
+	padding-bottom: 118px;
 }
 #our--team  h2 {
 	font-weight: 800;
@@ -416,7 +413,7 @@ header{
 	padding-right: 70px;
 }
 .testimonial--people > div:first-child{
-	margin-right: 100px;
+	margin-right: 125px;
 }
 .about--person--testimonail > span:nth-child(2){
 	font-size: 14px;
