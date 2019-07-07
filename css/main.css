@@ -81,7 +81,7 @@ h3{
 .menu--modal--content > ul > li {
 	display: inline-block;
 	margin-right: 30px;
-	transition: all.5s ease-in-out;
+	transition: all.3s ease-in-out;
 }
 .menu--modal--content > ul > li:hover{
 	border-bottom:2px solid #000;
@@ -107,7 +107,7 @@ header{
 	padding-right: 15px;
 }
 .logo > a{
-	color:#000;
+	color:#262626;
 	font-family: Montserrat;
 	font-weight: 800;
 	font-size: 36px;
@@ -167,6 +167,7 @@ header{
     background: url(../img/bg--start.png) right no-repeat;
 }
 .content--start > h1 {
+	color:#262626;
 	line-height: 110%;
 }
 .content--start > a {
@@ -176,6 +177,7 @@ header{
 	font-size: 26px;
 	line-height: 120%;
 	margin-top: 14px;
+	color:#262626;
 	margin-bottom: 43px;
 }
 /*Section Our Portfolio*/
@@ -184,6 +186,7 @@ header{
 	padding-top: 68px;
 }
 #our--portfolio > h2 {
+	color:#262626;
 	padding-bottom: 60px;
 }
 .download--portfolio{
@@ -350,6 +353,7 @@ header{
 	padding-bottom: 80px;
 }
 #benefits h2 {
+	color:#262626;
 	text-align:center;
 	margin-bottom: 60px;
 }
@@ -377,12 +381,14 @@ header{
 	height: 65px;
 }
 .benefits--this--title{
+	color:#262626;
 	font-size: 17px;
 	margin-bottom: 5px;
 	font-weight: bold;
 }
 .benefits--this--text{
 	font-size: 17px;
+	color:#262626;
 }
 
 
@@ -467,6 +473,7 @@ header{
 
 }
 #price h2{
+	color:#262626;
 	text-align:center;
 	margin-bottom: 60px;
 }
@@ -497,6 +504,7 @@ header{
 	border: 4px solid #03ACC1;
 }
 .title--price{
+	color:#262626;
 	font-weight: bold;
 	font-size: 24px;
 	margin-bottom: 32px;
@@ -508,6 +516,7 @@ header{
 	font-weight: 500;
 	font-size: 24px;
 	margin-bottom: 18px;
+	color:#262626;
 }
 .question--often{
 	margin-top: 70px;
@@ -533,12 +542,14 @@ header{
 }
 
 .title--question{
+	color:#262626;
 	cursor: pointer;
 	font-weight: bold;
 	font-size: 18px;
 }
 .answere--question{
 	margin-top: 8px;
+	color:#262626;
 	font-weight: normal;
 	font-size: 16px;
 }
