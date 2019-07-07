@@ -211,7 +211,11 @@
 		width: auto !important;
 	}
 	.send--msg--inp{
-		margin: 0 auto !important;
+		margin: 15px auto 0px auto !important;
+	}
+	.send--msg--inp{
+		flex-direction: column;
+		margin-top: 30px !important;
 	}
 	.inp--contact  {
 		flex-direction: column;

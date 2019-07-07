@@ -196,7 +196,7 @@ header{
 }
 .img--title {
     width: 100%;
-    height: 475px;
+    height: 450px;
     background-size:100%;
 }
 
@@ -664,8 +664,7 @@ header{
     /* text-align: center; */
     /* margin: 30px auto; */
     margin-left: auto;
-    margin-top: 44px;
-    max-width: 360px;
+    margin-top: 185px;
 }
 .offer{
 	cursor: pointer;
