@@ -206,9 +206,6 @@
 	h1 {
 	    font-size: 30px!important;
 	}
-	.person--testimonial:nth-child(2n){
-		display: none!important;
-	}
 	.content--start > p {
 	    font-size: 14px!important;
 	}
