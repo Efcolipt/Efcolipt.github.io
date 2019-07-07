@@ -200,6 +200,9 @@
 	.block--inps {
 		width: auto !important;
 	}
+	.send--msg--inp{
+		margin: 0 auto !important;
+	}
 	.inp--contact  {
 		flex-direction: column;
 	}
