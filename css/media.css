@@ -50,6 +50,23 @@
 		flex-direction: column;
 	}
 
+		.block--inps > input{
+		margin-right: 0!important;
+	}
+	.block--inps {
+		width: auto !important;
+	}
+	.send--msg--inp{
+		margin: 15px auto 0px auto !important;
+	}
+	.send--msg--inp{
+		flex-direction: column;
+		margin-top: 30px !important;
+	}
+		.inp--contact  {
+		flex-direction: column;
+	}
+
 }
 @media only screen and (max-width: 872px){
 
@@ -203,22 +220,6 @@
 	}
 	h3 {
 	    font-size: 28px!important;
-	}
-	.block--inps > input{
-		margin-right: 0!important;
-	}
-	.block--inps {
-		width: auto !important;
-	}
-	.send--msg--inp{
-		margin: 15px auto 0px auto !important;
-	}
-	.send--msg--inp{
-		flex-direction: column;
-		margin-top: 30px !important;
-	}
-	.inp--contact  {
-		flex-direction: column;
 	}
 	.idea--contact p{
 		font-size: 16px !important;
