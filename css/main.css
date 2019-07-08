@@ -201,9 +201,7 @@ header{
 	color:#262626;
 	line-height: 110%;
 }
-.content--start > a {
-	color:#fff;
-}
+
 .content--start > p {
 	font-size: 26px;
 	line-height: 120%;
