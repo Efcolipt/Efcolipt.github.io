@@ -15,12 +15,12 @@ $(document).ready(function () {
 
 		    $hamburger.toggleClass("is-active", $switching);
 		    // Do something else, like open/close menu
-	});
-		  $('.port--worker').mouseenter(function(){
+    });
+          $(document).on('mouseenter', '.port--worker', function () {
 		  		$(this).find('.show--about--port ').stop().fadeTo("500", 1);
 		  }); 
 
-		  $('.port--worker').mouseleave(function(){
+          $(document).on('mouseleave', '.port--worker',function () {
 		  		$(this).find('.show--about--port ').stop().fadeTo("500", 0);
 		  });
 		  $('.question').click(function(){
