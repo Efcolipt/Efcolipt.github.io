@@ -64,7 +64,7 @@ $(document).ready(function () {
 					nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
 					prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
 					slidesToShow: 2,
-					slidesToScroll: 1
+					slidesToScroll: 1,
 					responsive: [
 					  {
 					    breakpoint: 768,
