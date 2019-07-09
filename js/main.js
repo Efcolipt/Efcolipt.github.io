@@ -15,12 +15,12 @@ $(document).ready(function () {
 
 		    $hamburger.toggleClass("is-active", $switching);
 		    // Do something else, like open/close menu
-	});
-		  $('.port--worker').mouseenter(function(){
+    });
+          $(document).on('mouseenter', '.port--worker', function () {
 		  		$(this).find('.show--about--port ').stop().fadeTo("500", 1);
 		  }); 
 
-		  $('.port--worker').mouseleave(function(){
+          $(document).on('mouseleave', '.port--worker',function () {
 		  		$(this).find('.show--about--port ').stop().fadeTo("500", 0);
 		  });
 		  $('.question').click(function(){
@@ -59,14 +59,26 @@ $(document).ready(function () {
 		  	 $hamburger.removeClass('is-active');
 		  });
 
-		 
+			 if ($(window).width() > 700) {
+
 			  $('.testimonial').slick({
-			    autoplay: false,
+			    autoplay: true,
 			    autoplaySpeed: 7000,
 			    nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
 			    prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
-			    slidesToScroll:1
+			    slidesToShow: 2,
+  				slidesToScroll: 1
 			  });
+			 }else{
+			 	  $('.testimonial').slick({
+				    autoplay: true,
+				    autoplaySpeed: 7000,
+				    nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
+				    prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
+				    slidesToShow: 1,
+	  				slidesToScroll: 1
+				  });
+			 }
 			  $(".phone").mask("+7(999)999-99-99");
 		
 

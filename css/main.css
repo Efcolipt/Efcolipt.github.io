@@ -83,15 +83,46 @@ h3{
 	margin-right: 30px;
 	transition: all.3s ease-in-out;
 }
-.menu--modal--content > ul > li:hover{
-	border-bottom:2px solid #262626;
-}
+
 .menu--modal--content > ul > li > a {
 	font-size: 36px;
+	position: relative;
 	font-family: Fira Sans;
 	font-weight: bold;
 	color:#262626;
 }
+
+.menu--modal--content > ul > li > a::after{
+	display: block;
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 0;
+	background-color: #262626;
+	transition: width .5s ease-in-out;
+	left: 0;
+	bottom: 0;
+}
+.menu--modal--content > ul > li > a::before{
+	display: block;
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 0;
+	background-color: #262626;
+	transition: width .5s ease-in-out, left .5s ease-in-out;
+	left: 0;
+	bottom: 0;
+}
+
+.menu--modal--content > ul > li > a:hover::before{
+	width: 100%;
+	right: 0;
+}
+.menu--modal--content > ul > li > a:hover::after{
+	width: 100%;
+}
+
 /*Header*/
 header{
 	background: #fff;
@@ -170,9 +201,7 @@ header{
 	color:#262626;
 	line-height: 110%;
 }
-.content--start > a {
-	color:#fff;
-}
+
 .content--start > p {
 	font-size: 26px;
 	line-height: 120%;
@@ -185,9 +214,8 @@ header{
 #our--portfolio{
 	padding-top: 68px;
 }
-#our--portfolio > h2 {
+#our--portfolio h2 {
 	color:#262626;
-	padding-bottom: 60px;
 }
 .download--portfolio{
 	margin-top: 68px;
@@ -416,25 +444,17 @@ header{
 	display: -o-flex;
 	display: flex;
 }
-.testimonial--people{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-}
+
 .title--testimonial > p {
 	font-size: 24px;
 	font-weight: bold;
 	color:#fff;
 }
 .person--testimonial{
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-.testimonial--people > div:first-child{
-	margin-right: 125px;
-}
+
 .about--person--testimonail > span:nth-child(2){
 	font-size: 14px;
 	margin-left: 9px;

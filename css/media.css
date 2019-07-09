@@ -171,10 +171,6 @@
 	h3 {
 	    font-size: 32px!important;
 	}
-
-	.testimonial--people > div:first-child {
-	    margin-right: 25px!important;
-	}
 	.btn--callback{
 		display: none!important;
 	}
@@ -205,9 +201,6 @@
 
 	h1 {
 	    font-size: 30px!important;
-	}
-	.testimonial--people > div:first-child{
-		display: none !important;
 	}
 	.content--start > p {
 	    font-size: 14px!important;
@@ -258,6 +251,7 @@
 @media only screen and (max-width: 445px){
 
 	.content--start > p {
+		color:#fff!important;
 	    font-size: 16px!important;
 	}
 	#testimonials{
@@ -300,13 +294,15 @@
 		position: absolute;
 	    top: 0;
 	    bottom: 0;
-	    сolor:#fff!important;
 	    left: 0;
 	    text-align: center;
 	    padding-top: 50px;
 	    color: #e6e6e6;
 	    right: 0;
 	    background: #000000cf;
+	}
+	.content--start > h1{
+		color:#fff!important;
 	}
 }
 @media only screen and (max-width: 380px){
