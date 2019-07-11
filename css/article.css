@@ -36,5 +36,6 @@ p{
 	letter-spacing: 0.3px;
 }
 .content--article  p {
-	word-spacing: 12px;
+	word-spacing: 5px;
+	line-height: 28px;
 }
