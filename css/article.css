@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i|Montserrat:400,600,800&display=swap');
 *{
+	-webkit-text-size-adjust: 100%;
 	margin: 0;
 	padding: 0;
 }
