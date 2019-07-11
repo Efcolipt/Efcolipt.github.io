@@ -8,10 +8,12 @@ body{
 	background: #e5e5e5;
 }
 h1,h2,h3{
+	color:#262626;
 	font-family: 'Montserrat',sans-serif;
 	font-weight: 600;
 }
 p{
+	color:#262626;
 	font-family: 'Fira Sans',sans-serif;
 	font-weight: normal;
 }
@@ -37,5 +39,5 @@ p{
 }
 .content--article  p {
 	word-spacing: 5px;
-	line-height: 28px;
+	line-height: 26px;
 }
