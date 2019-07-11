@@ -34,3 +34,6 @@ p{
 	font-size: 18px;
 	letter-spacing: 0.3px;
 }
+.content--article  p {
+	word-spacing: 12px;
+}
