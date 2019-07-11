@@ -5,6 +5,7 @@
 }
 body{
 	transition: all .3s ease;
+	background: #e5e5e5;
 }
 h1,h2,h3{
 	font-family: 'Montserrat',sans-serif;
