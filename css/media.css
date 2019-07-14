@@ -200,6 +200,9 @@
 	.menu--element{
 		margin-left: 0 !important;
 	}
+	.content-start{
+		    max-height: 50%;
+	}
 }
 
 

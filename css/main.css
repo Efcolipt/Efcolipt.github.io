@@ -225,6 +225,7 @@ header{
 	color:#fff;
 }
 .content--start{
+	max-height: 362px;
 	margin-top: 250px;
 }
 .slick-dots li button {
@@ -239,6 +240,9 @@ header{
 .slick-dots li button:hover, .slick-dots li.slick-active button {
     border-color: #00e0d0;
     background: #00e0d0;
+}
+.slick-dots li {
+    width: 15px;
 }
 /*Section Our Portfolio*/
 
