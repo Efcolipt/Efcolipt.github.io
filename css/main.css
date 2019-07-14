@@ -278,7 +278,14 @@ header{
     justify-content: center;
 }
 .links--or--watchNow > a:first-child {
-	margin-right: 20px;
+	margin-right: 40px;
+}
+.links--or--watchNow > a {
+	font-size: 30px;
+    color: #fff;
+}
+.links--or--watchNow > a:hover{
+	color:#03ACC1;
 }
 
 .about--this--site{
