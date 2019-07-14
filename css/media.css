@@ -264,6 +264,7 @@
 		flex-direction: column;
 	}
 	.email{
+		text-align: center;
 		margin-left: 0 !important;
 		margin-top: 5px !important;
 	}
