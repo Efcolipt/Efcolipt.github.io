@@ -229,11 +229,11 @@ header{
 }
 .slick-dots{
 	position: absolute;
+	text-align: center;
 	bottom: 20px;
 }
 .slick-dots li{
 	display: inline-block;
-	text-align: center;
 	margin-right: 5px;
 }
 .slick-dots li:last-child{
