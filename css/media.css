@@ -341,4 +341,7 @@
 	.block--inps{
 		padding: 0 !important;
 	}
+	.social--contact >a{
+		margin-right: 25px;
+	}
 }
