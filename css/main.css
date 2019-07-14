@@ -208,22 +208,23 @@ header{
 	font-weight: 500;
 	margin-right: 5px;
 }
-.df{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 
 /* Section start*/
 
 #start--block{
 	background:  url('../img/bg--start.png') no-repeat center center;
 	background-size: cover;
-	height: 100vh;
+	height: 75vh;
 }
 .content--inner--sliders { 
 	text-align:center;
+}
+.content--inner--sliders h2,.content--inner--sliders p {
 	color:#fff;
+}
+.content--start{
+	margin-top: 200px;
 }
 /*Section Our Portfolio*/
 
