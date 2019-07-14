@@ -9,12 +9,8 @@
 	.content--start > p{
 		font-size: 24px!important;
 	}
-	.show--about--port {
-		padding-top: 30px !important;
-	}
-	.img--title{
-		height: 400px !important;
-	}
+
+
 	.send--msg--inp > small {
 		font-size: 12px !important;
 	}
@@ -26,9 +22,7 @@
 		margin-right: 0 !important;
 		text-align: center!important;
 	}
-	.img--title{
-		height: 295px !important;
-	}
+
 	.person{
 		margin-right: 0!important;
 		margin-top: 40px;
@@ -58,9 +52,7 @@
 	h3{
 		font-size: 35px!important;
 	}
-	.show--about--port p{
-		font-size: 14px!important;
-	}
+
 	h1 {
 	    font-size: 50px!important;
 	}
@@ -114,18 +106,14 @@
 		padding-top: 35px!important;
 	    padding-bottom: 35px!important;
 	}
-	.img--title{
-		height: 225px !important;
-	}
+
 
 }
 @media only screen and (max-width: 705px){
 	.port--worker{
 		width: 100%!important;
 	}
-	.img--title{
-		height: 355px !important;
-	}
+
 	.content--start > p {
 	    font-size: 16px!important;
 	}	
@@ -134,9 +122,6 @@
 	    font-size: 39px!important;
 	}	
 
-	.show--about--port p {
-	    font-size: 13px!important;
-	}
 	.person--testimonial{
 		padding: 0!important;
 	}
@@ -165,9 +150,6 @@
 }
 @media only screen and (max-width: 605px){
 
-	.show--about--port p {
-	    font-size: 14px!important;
-	}
 	h3 {
 	    font-size: 32px!important;
 	}
@@ -216,9 +198,7 @@
     	padding-top: 30px!important;
     	padding-bottom: 20px!important;
 	}
-	.img--title{
-		height: 225px!important;
-	}
+
 	h3 {
 	    font-size: 28px!important;
 	}
@@ -323,18 +303,6 @@
 	.email{
 		margin-left: 0 !important;
 		margin-top: 5px !important;
-	}
-	.show--about--port {
-	    padding-top: 10px !important;
-	}
-	.show--about--port p {
-	    font-size: 12px!important;
-	}
-	.show--about--port p{
-		margin-top: 10px !important;
-	}
-	.about--this--site > a{
-		font-size: 14px !important;
 	}
 	.container--for--port{
 		padding-right: 10px !important;

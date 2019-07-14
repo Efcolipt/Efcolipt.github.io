@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i|IBM+Plex+Sans|Montserrat:400,600,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Rubik:400,500&display=swap');
 *{
 	-webkit-text-size-adjust: 100%;
 	margin: 0;
@@ -15,23 +15,24 @@ body{
 	transition: all.3s ease;
 }
 a,p,span,button,pre{
-	font-family: 'Fira Sans', sans-serif;
-	font-style: normal;
+	font-family: 'Rubik', sans-serif;
+	font-style: 400;
 }
 small{
-	font-family: Fira Sans;
-	font-style: normal;
+	font-family: Rubik;
+	font-style: 400;
 	font-size: 14px;
 }
 h1,h2,h3,h4{
 	font-family: Montserrat;
-	font-style: normal;
 }
 h1{
 	font-size: 64px;
+	font-weight: 700;
 }
 h2{
 	font-size: 46px;
+	font-weight: 600;
 }
 h3{
 	font-size: 40px;
@@ -41,18 +42,7 @@ h3{
 	text-align:center;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
+
 
 /*Menu hide*/
 .modal--menu{
@@ -254,87 +244,27 @@ header{
 }
 .work{
 	margin-top: 58px;
-	width: 100%;
-}
-.img--title {
-    width: 100%;
-    height: 450px;
-    background-size:100%;
-}
-
-.img--title> img {
-    width: 100%;
-    top: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    /* position: absolute; */
-    height: 100%;
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-}
-
-.port--worker{
-	width: 50%;
-    float: left;
-    vertical-align: bottom;
-    position: relative;
-    display: inline-block;
-}
-.show--about--port{
-	display: none;
-	padding-top: 60px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom:0;
-	background:#131418;
-}
-.show--about--port h3 {
-	color: #03ACC1;
-	font-weight: 600;
-}
-.show--about--port span,.show--about--port small,.show--about--port p{
-	color:#fff;
-}
-.show--about--port p{
-	font-weight: 400;
-	margin-top: 20px;
-}
-
-.container--for--port{
-  max-width: 650px;
-	margin: 0 auto;
-	height: 100%;
-	padding: 0 50px;
-	position: relative;
-}
-.about--this--site{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	width: 85%;
-	position: absolute;
-	bottom: 62px;
-	align-items:center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
-.about--this--site > a {
-	text-decoration: underline;
-	color:#03ACC1;
+
+.port--worker{
+	width: 33.3%;
 }
+
+.img--title{
+	width: 100%;
+	height: 275px;
+}
+
+
+
+
 /*Our Team*/
 
 #our--team{

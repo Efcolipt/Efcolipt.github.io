@@ -16,13 +16,7 @@ $(document).ready(function () {
 				$hamburger.toggleClass("is-active", $switching);
 				// Do something else, like open/close menu
 		});
-					$(document).on('mouseenter', '.port--worker', function () {
-					$(this).find('.show--about--port ').stop().fadeTo("500", 1);
-			}); 
 
-					$(document).on('mouseleave', '.port--worker',function () {
-					$(this).find('.show--about--port ').stop().fadeTo("500", 0);
-			});
 			$('.question').click(function(){
 				var data_id = $(this).find('.answere--question').attr('data-id');
 				if (data_id == 0) {
