@@ -283,13 +283,13 @@ header{
 .port--worker:hover  {
     background: #000000c9;
 }
-.port--worker:hover   .name--this--site > p  {
+.port--worker:hover >  .name--this--site > p  {
 	color:#fff;
 }
-.port--worker:hover  .design--this-site > small  {
+.port--worker:hover > .design--this-site > small  {
 	    color: #03a1b5;
 }
-.port--worker:hover .img--title > img {
+.port--worker:hover > .img--title > img {
 	       filter: opacity(0.4);
 }
 
