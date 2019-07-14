@@ -276,7 +276,7 @@ header{
 	width: 100%;
 	height: 100%;
 }
-.port--worker:hover{
+.port--worker:hover , {
 
 }
 
@@ -634,8 +634,8 @@ header{
 	background: inherit;
 	border-bottom: 1px solid #6d6d6d;
 	padding: 20px 10px;
-	font-family: 'Fira Sans',sans-serif;
-	font-weight: normal;
+	font-family: 'Rubik',sans-serif;
+	font-weight: 500;
 	color: #858585;
 	border-top:0;
 	border-left: 0;
@@ -655,9 +655,10 @@ header{
 	background: inherit;
 	cursor: pointer;
 	color:#fff;
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	text-transform:uppercase;
 	margin-top: 11px;
+	font-weight: 500;
 
 }
 .custom--btn:hover{
