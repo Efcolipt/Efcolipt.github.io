@@ -75,7 +75,7 @@ $(document).ready(function () {
 			 	  nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
 				  prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
 				  infinite: true,
-				  speed: 3500,
+				  speed: 15000,
 				  slidesToShow: 1,
 				  adaptiveHeight: true,
 				  autoplay: true
