@@ -16,7 +16,7 @@ body{
 }
 a,p,span,button,pre{
 	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 }
 small{
 	font-family: Rubik;
@@ -162,7 +162,7 @@ header{
 .logo > a{
 	color:#262626;
 	font-family: Montserrat;
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 36px;
 }
 .btn--defualt{
@@ -208,7 +208,7 @@ header{
 .menu--element > p{
 	text-transform: uppercase;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 500;
 	margin-right: 5px;
 }
 
@@ -274,7 +274,6 @@ header{
 	padding-bottom: 118px;
 }
 #our--team  h2 {
-	font-weight: 800;
 	color:#fff;
 	text-align:center;
 	margin-bottom: 58px;
@@ -311,7 +310,7 @@ header{
 	 margin-top: 25px;
 }
 .about--person > .name--person {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 24px;
 	color:#fff;
 	margin-bottom: 8px;
@@ -373,7 +372,7 @@ header{
 	color:#262626;
 	font-size: 18px;
 	margin-bottom: 5px;
-	font-weight: bold;
+	font-weight: 500;
 }
 .benefits--this--text{
 	font-size: 17px;
@@ -486,7 +485,6 @@ header{
 }
 .title--price{
 	color:#262626;
-	font-weight: bold;
 	font-size: 24px;
 	margin-bottom: 32px;
 }
@@ -525,7 +523,7 @@ header{
 .title--question{
 	color:#262626;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 18px;
 }
 .answere--question{
