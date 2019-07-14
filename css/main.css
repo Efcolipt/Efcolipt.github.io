@@ -283,7 +283,7 @@ header{
 .port--worker:hover  {
     background: #000000c9;
 }
-.port--worker:hover >  .name--this--site > p  {
+.port--worker:hover  .name--this--site > p  {
 	color:#fff;
 }
 .port--worker:hover  .design--this-site > small  {
