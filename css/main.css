@@ -227,6 +227,10 @@ header{
 .content--start{
 	margin-top: 250px;
 }
+.slick-dots{
+	position: absolute;
+	bottom: 20px;
+}
 .slick-dots li{
 	display: inline-block;
 	text-align: center;
