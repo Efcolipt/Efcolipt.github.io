@@ -273,6 +273,9 @@ header{
 	bottom:0;
 	right: 0;
 	left: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .links--or--watchNow > a:first-child {
 	margin-right: 20px;
