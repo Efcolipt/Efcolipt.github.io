@@ -237,6 +237,9 @@
 	.img--title {
 	    height: 205px;
 	}
+	.name--this--site > p{
+		font-size: 16px;
+	}
 	#testimonials{
 		text-align: center;
 	}
