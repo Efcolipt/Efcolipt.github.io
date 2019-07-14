@@ -166,10 +166,10 @@ header{
 	font-size: 36px;
 }
 .btn--defualt{
-	border-radius: 50px;
+	border-radius: 4px;
 	background: #03ACC1;
 	color:#fff;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 16px;
 	border:0;
 	padding: 10px 25px;
