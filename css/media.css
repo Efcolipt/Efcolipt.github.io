@@ -1,14 +1,8 @@
 @media only screen and (max-width: 1230px){
-	#start--block{
-	    background-size: 72%!important;
-	    padding-top: 100px!important;
-	}
 	h1{
 		font-size: 55px!important;
 	}
-	.content--start > p{
-		font-size: 24px!important;
-	}
+
 
 
 	.send--msg--inp > small {
@@ -56,9 +50,7 @@
 	h1 {
 	    font-size: 50px!important;
 	}
-	.content--start > p {
-	    font-size: 22px!important;
-	}
+
 	h2 {
 	    font-size: 42px!important;
 	}
@@ -87,9 +79,7 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.content--start > p {
-	    font-size: 20px!important;
-	}
+
 	h1 {
 	    font-size: 45px!important;
 	}
@@ -111,9 +101,6 @@
 }
 @media only screen and (max-width: 705px){
 
-	.content--start > p {
-	    font-size: 16px!important;
-	}	
 	
 	h1 {
 	    font-size: 39px!important;
@@ -181,20 +168,14 @@
 	h1 {
 	    font-size: 30px!important;
 	}
-	.content--start > p {
-	    font-size: 14px!important;
-	}
+
 	.btn--all--portfolio{
 		margin-top:30px !important;
 	}
 	.btn--defualt {
 	      padding: 8px 17px!important;
 	}
-	#start--block {
-	    background-size: 66%!important;
-    	padding-top: 30px!important;
-    	padding-bottom: 20px!important;
-	}
+
 
 	h3 {
 	    font-size: 28px!important;
@@ -227,10 +208,7 @@
 
 @media only screen and (max-width: 445px){
 
-	.content--start > p {
-		color:#fff!important;
-	    font-size: 16px!important;
-	}
+
 	.port--worker{
 		width: 100%!important;
 	}
@@ -270,26 +248,7 @@
 	.about--this--benefits{
 		font-size: 14px !important;
 	}
-	#start--block{
-		padding-bottom: 130px!important;
-	    position: relative!important;
-	    padding-top: 180px!important;
-	    background-size: 130%!important;
-	}
-	.content--start{
-		position: absolute;
-	    top: 0;
-	    bottom: 0;
-	    left: 0;
-	    text-align: center;
-	    padding-top: 50px;
-	    color: #e6e6e6;
-	    right: 0;
-	    background: #000000cf;
-	}
-	.content--start > h1{
-		color:#fff!important;
-	}
+
 }
 @media only screen and (max-width: 380px){
 	.menu--element > p {

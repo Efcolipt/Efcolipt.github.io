@@ -1,20 +1,17 @@
 $(document).ready(function () {
 	 var $hamburger = $(".hamburger"), $menu = $('.modal--menu'), $switching;
-			$hamburger.on("click", function(e) {
+			$hamburger.on("click", function() {
 				if ($menu.hasClass('active--menu')) {
 					$switching = false;
 					$menu.stop(false, true).slideToggle(300);
 					$menu.removeClass('active--menu');
-					// $('body').css({"overflow-y":"scroll"});
 				}else{
 					$menu.stop(false, true).slideToggle(300);
-					// $('body').css({"overflow":"hidden"});
 					$switching = true;
 					$menu.addClass('active--menu');
 				}
 
 				$hamburger.toggleClass("is-active", $switching);
-				// Do something else, like open/close menu
 		});
 
 			$('.question').click(function(){
@@ -74,7 +71,13 @@ $(document).ready(function () {
 					  }
 					]
 				});
-			 
+			 $('.content--start').slick({
+				  dots: true,
+				  infinite: true,
+				  speed: 300,
+				  slidesToShow: 1,
+				  adaptiveHeight: true
+			});
 				$(".phone").mask("+7(999)999-99-99");
 		
 

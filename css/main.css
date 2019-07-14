@@ -212,17 +212,10 @@ header{
 
 /* Section start*/
 
-#start--block {
-	padding-top: 150px !important;
-	padding-bottom: 150px !important;
-    background: url(../img/bg--start.png) right no-repeat;
-}
-
-
-.content--start > p {
-	font-size: 26px;
-	margin-top: 14px;
-	margin-bottom: 43px;
+#start--block{
+	background:  url('../img/bg--start.png') no-repeat center center;
+	background-size: cover;
+	height: 100vh;
 }
 /*Section Our Portfolio*/
 
@@ -328,7 +321,11 @@ header{
 	text-align:center;
 	margin-bottom: 58px;
 }
-.team{
+
+
+
+
+/*.team{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -382,7 +379,7 @@ header{
 }
 .social--contact >a:last-child{
 	margin-right: 0 !important;
-}
+}*/
 
 /* Benefits block */
 
