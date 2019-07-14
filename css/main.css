@@ -14,6 +14,7 @@ a{
 
 body{
 	transition: all.3s ease;
+	font-family: Rubik;
 }
 a,p,span,button,pre,small{
 	font-family: 'Rubik', sans-serif;
