@@ -16,11 +16,11 @@ body{
 }
 a,p,span,button,pre{
 	font-family: 'Rubik', sans-serif;
-	font-style: 400;
+	font-weight: 400;
 }
 small{
 	font-family: Rubik;
-	font-style: 400;
+	font-weight: 400;
 	font-size: 14px;
 }
 h1,h2,h3,h4{
@@ -36,6 +36,7 @@ h2{
 }
 h3{
 	font-size: 40px;
+	font-weight: 400;
 }
 
 .txt--center{
