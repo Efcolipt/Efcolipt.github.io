@@ -274,12 +274,10 @@ header{
 	right: 0;
 	left: 0;
 }
-.links--or--watchNow > a {
+.links--or--watchNow > a:first-child {
 	margin-right: 20px;
 }
-.links--or--watchNow > a:last-child{
-	margin-right: 0;
-}
+
 .about--this--site{
 	transition:all.5s ease;
 	background:#fbfaf8;
