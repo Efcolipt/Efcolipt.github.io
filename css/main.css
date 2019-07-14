@@ -227,6 +227,14 @@ header{
 .content--start{
 	margin-top: 250px;
 }
+.slick-dots li{
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+}
+.slick-dots li:last-child{
+	margin-right: 0;
+}
 .slick-dots li button{
 	background: inherit;
     border: 1px solid #03ACC1;
