@@ -43,7 +43,7 @@ $(document).ready(function () {
 		 });
 
 			$(document).on('mouseenter',".port--worker" , function(){
-				$(this).find('.links--or--watchNow').stop().fadeIn(300);
+				$(this).find('.links--or--watchNow').stop().fadeIn(300).css({"visibility: visibility;"});
 			});
 			$(document).on('mouseleave',".port--worker", function(){
 				$(this).find('.links--or--watchNow').stop().fadeOut(300);
