@@ -264,6 +264,7 @@ header{
 }
 
 .about--this--site{
+	transition:all.5s ease;
 	background:#fbfaf8;
 	padding:30px 25px;
 }
