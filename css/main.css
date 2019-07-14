@@ -260,6 +260,7 @@ header{
 .img--title{
 	width: 100%;
 	height: 275px;
+	transition:all.3s ease;
 }
 
 .about--this--site{
@@ -268,16 +269,28 @@ header{
 .name--this--site > p{
 	font-size: 20px;
 	color:#03ACC1;
+	transition:all.3s ease;
 }
 .design--this-site > small{
 	    color: #b5b5b5;
+	    transition:all.3s ease;
 }
 .img--title > img{
 	width: 100%;
 	height: 100%;
+	transition:all.3s ease;
 }
-.port--worker:hover , {
-
+.port--worker:hover  {
+    background: #000000c9;
+}
+.port--worker:hover, .name--this--site > p  {
+	color:#fff;
+}
+.port--worker:hover, .design--this-site > small  {
+	    color: #03a1b5;
+}
+.port--worker:hover, .img--title > img {
+	       filter: opacity(0.4);
 }
 
 /*Our Team*/
