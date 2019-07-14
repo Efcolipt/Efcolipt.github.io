@@ -421,11 +421,12 @@ header{
 }
 .about--person--testimonail > span{
 	display: inline-block;
+	font-weight: 400;
 	color:#fff;
 }
 .txt--testimonial > p{
 	color:#fff;
-	font-style: 400;
+	font-weight: 400;
 	font-size: 18px;
 	margin-top: 12px;
 }
