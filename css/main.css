@@ -227,7 +227,13 @@ header{
 .content--start{
 	margin-top: 250px;
 }
-.slick-active > 
+.slick-dots li button:before{
+	content: "";
+	background: inherit;
+    border: 1px solid #03ACC1;
+    padding: 7px;
+    border-radius: 70%;
+}
 /*Section Our Portfolio*/
 
 
