@@ -208,7 +208,11 @@ header{
 	font-weight: 500;
 	margin-right: 5px;
 }
-
+.df{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 /* Section start*/
 
