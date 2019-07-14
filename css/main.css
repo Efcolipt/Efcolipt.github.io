@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	list-style: none;
 	outline: none;
 }
 a{
@@ -224,8 +225,9 @@ header{
 	color:#fff;
 }
 .content--start{
-	margin-top: 200px;
+	margin-top: 250px;
 }
+.slick-active > 
 /*Section Our Portfolio*/
 
 
