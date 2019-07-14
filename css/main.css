@@ -215,13 +215,12 @@ header{
 /* Section start*/
 
 #start--block{
+	text-align: center;
 	background:  url('../img/bg--start.png') no-repeat center center;
 	background-size: cover;
 	height: 75vh;
 }
-.content--inner--sliders { 
-	text-align:center;
-}
+
 .content--inner--sliders h1{
 	font-size: 80px;
 }.content--inner--sliders p{
