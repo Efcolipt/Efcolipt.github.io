@@ -407,7 +407,7 @@ header{
 
 .title--testimonial > p {
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 500;
 	color:#fff;
 }
 .person--testimonial{
@@ -425,7 +425,7 @@ header{
 }
 .txt--testimonial > p{
 	color:#fff;
-	font-style: italic;
+	font-style: 400;
 	font-size: 18px;
 	margin-top: 12px;
 }
