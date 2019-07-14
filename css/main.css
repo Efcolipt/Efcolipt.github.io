@@ -284,6 +284,9 @@ header{
 .port--worker:hover  {
     background: #000000c9;
 }
+.port--worker:hover .about--this--site  {
+    background: #000000c9;
+}
 .port--worker:hover  .name--this--site > p  {
 	color:#fff;
 }
