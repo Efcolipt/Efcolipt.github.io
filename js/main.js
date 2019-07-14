@@ -42,10 +42,10 @@ $(document).ready(function () {
 					return false;
 		 });
 
-			$(document).on('mouseenter',".port--worker" function(){
+			$(document).on('mouseenter',".port--worker" , function(){
 				$(this).find('.links--or--watchNow').stop().fadeIn(300);
 			});
-			$(document).on('mouseleave',".port--worker" function(){
+			$(document).on('mouseleave',".port--worker", function(){
 				$(this).find('.links--or--watchNow').stop().fadeOut(300);
 			});
 
