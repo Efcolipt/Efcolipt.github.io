@@ -253,7 +253,7 @@ header{
 }
 
 .port--worker{
-	margin: 20px 15px;
+	margin: 20.5px;
 	transition:all.3s ease;
 }
 
@@ -266,6 +266,8 @@ header{
 .about--this--site{
 	transition:all.5s ease;
 	background:#fbfaf8;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 	padding:30px 25px;
 }
 .name--this--site > p{
@@ -279,6 +281,8 @@ header{
 }
 .img--title > img{
 	width: 100%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	height: 100%;
 	transition:all.5s ease;	
 }
