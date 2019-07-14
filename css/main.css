@@ -657,6 +657,7 @@ header{
 .offer{
 	cursor: pointer;
 	color:#03ACC1;
+	font-weight: 400;
 }
 .offer:hover{
 	text-decoration:underline;
