@@ -253,7 +253,7 @@ header{
 }
 
 .port--worker{
-	margin: 10px;
+	margin: 20px 15px;
 	transition:all.3s ease;
 }
 
