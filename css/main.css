@@ -248,13 +248,13 @@ header{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
 .port--worker{
+	margin: 10px;
 	transition:all.3s ease;
-	width: 33.3%;
 }
 
 .img--title{
@@ -265,7 +265,7 @@ header{
 
 .about--this--site{
 	background:#fbfaf8;
-	padding:10px 25px;
+	padding:30px 25px;
 }
 .name--this--site > p{
 	font-size: 20px;
