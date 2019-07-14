@@ -386,7 +386,7 @@ header{
 	margin-bottom: 60px;
 }
 .benefits--about{
-	max-width: 680px;
+	max-width: 800px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -398,7 +398,7 @@ header{
 .benefits--element{
     display: flex;
     /* margin-right: 46px; */
-    margin: 20px auto;
+    margin: 25px;
     max-width: 300px;
 }
 .img--benefits{
