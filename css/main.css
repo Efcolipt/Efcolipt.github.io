@@ -678,8 +678,10 @@ header{
 	background:#03ACC1;
 }
 .send--msg--inp{
-    color: #fff;
     margin-top: 185px;
+}
+.send--msg--inp > small {
+	color:#fff;
 }
 .offer{
 	cursor: pointer;
