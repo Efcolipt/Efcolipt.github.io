@@ -110,9 +110,6 @@
 
 }
 @media only screen and (max-width: 705px){
-	.port--worker{
-		width: 100%!important;
-	}
 
 	.content--start > p {
 	    font-size: 16px!important;
@@ -234,6 +231,12 @@
 		color:#fff!important;
 	    font-size: 16px!important;
 	}
+	.port--worker{
+		width: 100%!important;
+	}
+	.img--title {
+	    height: 205px;
+	}
 	#testimonials{
 		text-align: center;
 	}
@@ -289,6 +292,7 @@
 	.menu--element > p {
 		display: none;
 	}
+
 	.menu--modal--content > ul > li > a {
 	    font-size: 24px!important;
 	}
