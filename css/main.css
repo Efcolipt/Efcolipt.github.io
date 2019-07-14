@@ -553,7 +553,7 @@ header{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	max-width: 300px;
+	max-width: 515px;
 	margin: 40px auto;
 }
 .icon--close_open{
