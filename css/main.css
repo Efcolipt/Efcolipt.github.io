@@ -227,28 +227,7 @@ header{
 .content--start{
 	margin-top: 250px;
 }
-.slick-dots{
-    position: absolute;
-    bottom: -220px;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    max-width: 200px;
-    text-align: center;
-}
-.slick-dots li{
-	display: inline-block;
-	margin-right: 20px;
-}
-.slick-dots li:last-child{
-	margin-right: 0;
-}
-.slick-dots li {
-	background: inherit;
-    border: 2px solid #03ACC1;
-    padding: 7px;
-    border-radius: 70%;
-}
+
 /*Section Our Portfolio*/
 
 

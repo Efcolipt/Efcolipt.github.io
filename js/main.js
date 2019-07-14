@@ -74,7 +74,7 @@ $(document).ready(function () {
 			 $('.content--start').slick({
 			 	  nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
 				  prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
-				  dots: true,
+				  dots: false,
 				  infinite: true,
 				  speed: 1500,
 				  slidesToShow: 1,
