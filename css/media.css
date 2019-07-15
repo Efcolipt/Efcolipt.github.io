@@ -95,5 +95,17 @@
 	#start--block {
 		height: 50vh!important;
 	}
+	.fast--info{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+	}
+	.email{
+		margin-top: 10px;
+		margin-left: 0!important;
+	}
 
 }
