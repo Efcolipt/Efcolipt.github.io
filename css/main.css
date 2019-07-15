@@ -362,7 +362,7 @@ header{
 
 
 
-/*.team{
+.team{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -416,7 +416,7 @@ header{
 }
 .social--contact >a:last-child{
 	margin-right: 0 !important;
-}*/
+}
 
 /* Benefits block */
 
