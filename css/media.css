@@ -83,9 +83,7 @@
 	.menu--modal--content > ul > li > a{
 		font-size: 26px !important;
 	}
-	p{
-		font-size: 16px !important;
-	}
+	
 	.about--person--testimonail > span:nth-child(2){
 		margin-left: 0 !important;
 	}
@@ -108,4 +106,21 @@
 		margin-left: 0!important;
 	}
 
+}
+@media only screen and (max-width: 576px){
+	.img--title{
+		height: 200px!important;
+	}
+	h2 {
+	    font-size: 29px !important;
+	}
+	.person{
+		padding: 55px!important;
+	}
+	.logo > a{
+		font-size: 27px !important;
+	}
+	.benefits--this--text{
+		font-size: 14px !important;
+	}
 }
