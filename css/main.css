@@ -676,7 +676,7 @@ header{
 	background: inherit;
 	border-bottom: 1px solid #6d6d6d;
 	padding: 20px 10px;
-	font-family: 'Rubik',sans-serif;
+	font-family: 'Montserrat',sans-serif;
 	font-weight: 500;
 	color: #858585;
 	border-top:0;
@@ -688,6 +688,7 @@ header{
 }
 
 .custom--btn{
+	display: block;
 	transition: all.3s ease;
 	border-radius: 5px;
 	border: 3px solid #03ACC1;
@@ -695,6 +696,7 @@ header{
 	font-weight: bold;
 	letter-spacing: .5px;
 	background: inherit;
+	margin: 20px auto 0px auto;
 	cursor: pointer;
 	color:#fff;
 	font-family: 'Rubik', sans-serif;
@@ -708,6 +710,7 @@ header{
 }
 
 .send--msg--inp > small {
+	margin-top: 5px;
 	color:#fff;
 }
 .offer{
@@ -773,18 +776,6 @@ header{
 .our--vk:visited{
 	color:inherit;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ::-webkit-scrollbar {
