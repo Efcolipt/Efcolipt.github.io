@@ -170,4 +170,7 @@
 	.container{
 		padding: 0 10px!important;
 	}
+	.block--inps{
+		padding: 0 !important;
+	}
 }
