@@ -35,7 +35,7 @@
 		font-size: 36px !important;
 	}
 	.about--person > .name--person{
-		font-size: 20px !important;
+		font-size: 22px !important;
 	}
 	.benefits--this--text{
 		font-size: 16px !important;
@@ -48,5 +48,21 @@
 	}
 	.btn--callback{
 		display: none!important;
+	}
+	.info--about--team{
+		flex-direction: column;
+	}
+	.our--vk{
+		    width: 25px;
+   		 margin: 10px auto;
+	}
+	.copy > p{
+		margin-top: 15px;
+	}
+	.title--price , .cost--this--block{
+		font-size: 20px!important;
+	}
+	.inp--contact{
+		margin-top: 20px;
 	}
 }

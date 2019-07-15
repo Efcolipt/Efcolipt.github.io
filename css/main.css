@@ -685,17 +685,15 @@ header{
 	color:#fff;
 	font-family: 'Rubik', sans-serif;
 	text-transform:uppercase;
-	margin-top: 11px;
+	margin-top: 20px;
 	font-weight: 500;
 
 }
 .custom--btn:hover{
 	background:#03ACC1;
 }
-
-.send--msg--inp > small {
-	margin-top: 25px;
-	margin-bottom: 20px;
+.send--msg--inp {
+	margin-top: 20px;
 }
 .offer{
 	cursor: pointer;
