@@ -236,6 +236,7 @@ header{
 	color:#fff;
 }
 .content--start{
+	padding: 0 25px;
 	margin-top: 230px;
 }
 .slick-dots li button {
