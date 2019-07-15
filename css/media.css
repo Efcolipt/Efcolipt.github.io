@@ -163,7 +163,7 @@
 @media only screen and (max-width: 560px){
 
 	h1 {
-	    font-size: 30px!important;
+	    font-size: 28px!important;
 	}
 
 	.btn--all--portfolio{
@@ -202,6 +202,15 @@
 	}
 	.content-start{
 		    max-height: 50%;
+	}
+	#start--block{
+		    height: 50vh!important;
+	}
+	.content--start {
+	    margin-top: 90px!important;
+	}
+	.content--inner--sliders p{
+		font-size: 18px;
 	}
 }
 
