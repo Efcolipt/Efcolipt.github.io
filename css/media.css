@@ -73,7 +73,9 @@
 @media only screen and (max-width: 576px){
 	.block--inps{
 		width:auto !important;
-		flex-direction: column !important;
+	}
+	.inp--contact{
+		flex-direction: column!important;
 	}
 	.menu--element > p{
 		display: none !important;
