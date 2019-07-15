@@ -123,4 +123,13 @@
 	.benefits--this--text{
 		font-size: 14px !important;
 	}
+	#start--block {
+	    height: 35vh!important;
+	}
+	.content--start{
+		margin-top: 20px !important;
+	}
+	.copy > p{
+		font-size: 14px !important;
+	}
 }
