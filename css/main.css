@@ -706,9 +706,7 @@ header{
 .custom--btn:hover{
 	background:#03ACC1;
 }
-.send--msg--inp{
-    margin-top: 185px;
-}
+
 .send--msg--inp > small {
 	color:#fff;
 }
