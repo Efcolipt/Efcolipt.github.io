@@ -680,7 +680,7 @@ header{
 	padding: 18px 65px;
 	letter-spacing: .5px;
 	background: inherit;
-	margin: 20px auto 0px auto;
+	margin: 0 auto ;
 	cursor: pointer;
 	color:#fff;
 	font-family: 'Rubik', sans-serif;
@@ -694,7 +694,8 @@ header{
 }
 
 .send--msg--inp > small {
-	margin-top: 5px;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
 .offer{
 	cursor: pointer;

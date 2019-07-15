@@ -1,0 +1,52 @@
+@media only screen and (max-width: 992px){
+	#start--block {
+		height: 60vh!important;
+	}
+	.content--start{
+		margin-top: 100px !important;
+	}
+	.menu--modal--content > ul{
+		flex-direction: column;
+	}
+	.menu--modal--content > ul > li{
+		margin-right: 0 !important;
+		margin-top: 20px;
+	}
+	.contact--content{
+		text-align: center;
+		flex-direction: column;
+	}
+	.idea--contact{
+		margin-right: 0 !important;
+	}
+	.content--inner--sliders h1{
+		font-size: 64px !important;
+	}
+	.our--vk{
+		margin-left: 15px !important;
+	}
+}
+
+@media only screen and (max-width: 790px){
+	p{
+		font-size: 18px !important;
+	}
+	h2{
+		font-size: 36px !important;
+	}
+	.about--person > .name--person{
+		font-size: 20px !important;
+	}
+	.benefits--this--text{
+		font-size: 16px !important;
+	}
+	.title--testimonial > p{
+		font-size: 22px!important;
+	}
+	.title--question{
+		font-size: 18px !important;
+	}
+	.btn--callback{
+		display: none!important;
+	}
+}
