@@ -53,8 +53,9 @@
 		flex-direction: column;
 	}
 	.our--vk{
-		    width: 25px;
-   		 margin: 10px auto;
+		display: block!important;
+		width: 25px;
+		margin: 10px auto;
 	}
 	.copy > p{
 		margin-top: 15px;
@@ -65,4 +66,32 @@
 	.inp--contact{
 		margin-top: 20px;
 	}
+	.menu--element{
+		margin-left: 0 !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	.block--inps{
+		width:auto !important;
+		flex-direction: column !important;
+	}
+	.menu--element > p{
+		display: none !important;
+	}
+	.menu--modal--content > ul > li > a{
+		font-size: 26px !important;
+	}
+	p{
+		font-size: 16px !important;
+	}
+	.about--person--testimonail > span:nth-child(2){
+		margin-left: 0 !important;
+	}
+	.content--inner--sliders h1 {
+		font-size: 46px !important;
+	}
+	#start--block {
+		height: 50vh!important;
+	}
+
 }
