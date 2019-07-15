@@ -49,6 +49,9 @@ section{
 	padding-top: 68px;
 	padding-bottom: 80px;
 }
+.txt--white{
+	color:#fff;
+}
 
 /*Menu hide*/
 .modal--menu{
@@ -215,7 +218,6 @@ header{
 /* Section start*/
 
 #start--block{
-	text-align: center;
 	background:  url('../img/bg--start.png') no-repeat center center;
 	background-size: cover;
 	height: 75vh;
@@ -231,9 +233,6 @@ header{
 	margin-top: 15px;
 	margin-bottom: 25px;
 	font-size: 20px;
-}
-.content--inner--sliders h1,.content--inner--sliders p {
-	color:#fff;
 }
 .content--start{
 	padding: 0 25px;
@@ -304,7 +303,6 @@ header{
 }
 .links--or--watchNow > a {
 	font-size: 30px;
-    color: #fff;
 }
 .links--or--watchNow > a:hover{
 	color:#03ACC1;
@@ -355,8 +353,6 @@ header{
 	background: url('../img/bg--all/bg.png');
 }
 #our--team  h2 {
-	color:#fff;
-	text-align:center;
 	margin-bottom: 58px;
 }
 
@@ -421,7 +417,6 @@ header{
 /* Benefits block */
 
 #benefits h2 {
-	text-align:center;
 	margin-bottom: 60px;
 }
 .benefits--about{
@@ -469,8 +464,6 @@ header{
     padding-right: 35px;
 }
 #testimonials  h2 {
-	color:#fff;
-	text-align: center;
 	margin-bottom: 60px;
 }
 .star--testimonial{
@@ -484,7 +477,6 @@ header{
 .title--testimonial > p {
 	font-size: 24px;
 	font-weight: 500;
-	color:#fff;
 }
 .person--testimonial{
 	padding-left: 20px;
@@ -497,10 +489,8 @@ header{
 }
 .about--person--testimonail > span{
 	display: inline-block;
-	color:#fff;
 }
 .txt--testimonial > p{
-	color:#fff;
 	font-size: 18px;
 	margin-top: 12px;
 }
@@ -512,9 +502,6 @@ header{
 	margin-top: 55px;
 	text-align: center;
 }
-.btn--all--portfolio> a {
-	color:#fff;
-}
 .slick-arrow{
 	transition: all .3s ease;
 }
@@ -524,7 +511,6 @@ header{
 /*Price*/
 
 #price h2{
-	text-align:center;
 	margin-bottom: 60px;
 }
 .price--block{
@@ -627,15 +613,14 @@ header{
 #contact{
 	background: url('../img/bg--all/bg.png');
 }
+
 .idea--contact{
 	margin-right: 40px;
 }
 .idea--contact h2 {
-	color:#fff;
 	margin-bottom: 18px;
 }
 .idea--contact p {
-	color:#fff;
 	font-weight: normal;
 	font-size: 18px;
 }
@@ -711,7 +696,6 @@ header{
 
 .send--msg--inp > small {
 	margin-top: 5px;
-	color:#fff;
 }
 .offer{
 	cursor: pointer;
@@ -729,6 +713,7 @@ header{
 	border-top: 1px solid  #555555;
 	background:url("../img/bg--all/bg.png");
 }
+
 .info--about--team{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -741,18 +726,12 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
-.fast--info > a{
-	color:#fff;
-}
 .fast--info > a > i {
 	margin-right: 10px;
 	font-size: 20px;
 }
 .email{
 	margin-left: 40px;
-}
- .copy > p {
-	color:#fff;
 }
 .copy > p ,.our--vk{
 	font-family: Montserrat;
