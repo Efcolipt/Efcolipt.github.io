@@ -56,13 +56,13 @@ section{
 /*Menu hide*/
 .modal--menu{
 	display: none;
-    background: #fff;
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 9999;
-    bottom: 0;
-    top: 88px;
+	background: #fff;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	bottom: 0;
+	top: 88px;
 }
 
 .menu--modal--content > ul {
@@ -239,20 +239,20 @@ header{
 	margin-top: 230px;
 }
 .slick-dots li button {
-    width: 10px;
-    height: 10px;
-    border: 1px solid #2c2c2c;
-    border-radius: 50%;
-    transition: border-color .5s;
-    padding: 0;
-    margin: 0;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #2c2c2c;
+	border-radius: 50%;
+	transition: border-color .5s;
+	padding: 0;
+	margin: 0;
 }
 .slick-dots li button:hover, .slick-dots li.slick-active button {
-    border-color: #03ACC1;
-    background: #03ACC1;
+	border-color: #03ACC1;
+	background: #03ACC1;
 }
 .slick-dots li {
-    width: 15px;
+	width: 15px;
 }
 /*Section Our Portfolio*/
 
@@ -295,8 +295,8 @@ header{
 	left: 0;
 	visibility: hidden;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 .links--or--watchNow > a:first-child {
 	margin-right: 40px;
@@ -321,8 +321,8 @@ header{
 	transition:all.5s ease;
 }
 .design--this-site > small{
-	    color: #b5b5b5;
-	    transition:all.5s ease;
+	color: #b5b5b5;
+	transition:all.5s ease;
 }
 .img--title > img{
 	width: 100%;
@@ -332,10 +332,10 @@ header{
 	transition:all.5s ease;	
 }
 .port--worker:hover  {
-    background: #000000c9;
+	background: #000000c9;
 }
 .port--worker:hover .about--this--site  {
-    background: #252525c9;
+	background: #252525c9;
 }
 .port--worker:hover  .name--this--site > p  {
 	color:#fff;
@@ -372,7 +372,7 @@ header{
 
 .person{
 	margin: 20.5px;
-    padding: 32px 90px 65px 90px;
+	padding: 32px 90px 65px 90px;
 	border: 1px solid rgba(255, 255, 255, 0.33);
 	border-radius: 5px;
 	transition: all.3s ease;
@@ -383,11 +383,11 @@ header{
 }
 .img--person > img{
 	border-radius: 50%;
-    width: 150px;
-    height: 150px;
+	width: 150px;
+	height: 150px;
 }
 .about--person  {
-	 margin-top: 25px;
+	margin-top: 25px;
 }
 .about--person > .name--person {
 	font-weight: 500;
@@ -431,10 +431,10 @@ header{
 	margin: 0 auto;
 }
 .benefits--element{
-    display: flex;
-    /* margin-right: 46px; */
-    margin: 25px;
-    max-width: 300px;
+	display: flex;
+	/* margin-right: 46px; */
+	margin: 25px;
+	max-width: 300px;
 }
 .img--benefits{
 	margin-right: 25px;
@@ -461,7 +461,7 @@ header{
 }
 .testimonial{
 	padding-left: 35px;
-    padding-right: 35px;
+	padding-right: 35px;
 }
 #testimonials  h2 {
 	margin-bottom: 60px;
@@ -599,12 +599,12 @@ header{
 	animation: rotateclose 0.5s ease-in-out forwards;	
 }
 @keyframes rotateclose {
-    from { transform: rotate( 0deg); }
-   to { transform: rotate(135deg); }
+	from { transform: rotate( 0deg); }
+	to { transform: rotate(135deg); }
 }
 @keyframes rotateopen {
-    from { transform: rotate( 135deg); }
-   to { transform: rotate(0deg); }
+	from { transform: rotate( 135deg); }
+	to { transform: rotate(0deg); }
 }
 
 
@@ -744,28 +744,28 @@ header{
 }
 .our--vk{
 	cursor: pointer;
-    margin-left: 40px;
-    font-size: 22px;
-    background: #fff;
-    border-radius: 46px;
-    padding: 5px 6px;
-   }
+	margin-left: 40px;
+	font-size: 22px;
+	background: #fff;
+	border-radius: 46px;
+	padding: 5px 6px;
+}
 .our--vk:visited{
 	color:inherit;
 }
 
 
 ::-webkit-scrollbar {
-       width: 6px;
+	width: 6px;
 }
- 
+
 ::-webkit-scrollbar-track {
 	background: #333;
 }
- ::-webkit-scrollbar-thumb:hover{
- 	background:#ffffff6e;
- }
+::-webkit-scrollbar-thumb:hover{
+	background:#ffffff6e;
+}
 ::-webkit-scrollbar-thumb {
-     background-color: #6d6d6d;
-            border-radius: 5px;
+	background-color: #6d6d6d;
+	border-radius: 5px;
 }
