@@ -6,15 +6,15 @@
 		margin-top: 100px !important;
 	}
 	.menu--modal--content > ul{
-		flex-direction: column;
+		flex-direction: column!important;
 	}
 	.menu--modal--content > ul > li{
 		margin-right: 0 !important;
-		margin-top: 20px;
+		margin-top: 20px!important;
 	}
 	.contact--content{
-		text-align: center;
-		flex-direction: column;
+		text-align: center!important;
+		flex-direction: column!important;
 	}
 	.idea--contact{
 		margin-right: 0 !important;
@@ -50,21 +50,21 @@
 		display: none!important;
 	}
 	.info--about--team{
-		flex-direction: column;
+		flex-direction: column!important;
 	}
 	.our--vk{
 		display: block!important;
-		width: 25px;
-		margin: 10px auto;
+		width: 25px!important;
+		margin: 10px auto!important;
 	}
 	.copy > p{
-		margin-top: 15px;
+		margin-top: 15px!important;
 	}
 	.title--price , .cost--this--block{
 		font-size: 20px!important;
 	}
 	.inp--contact{
-		margin-top: 20px;
+		margin-top: 20px!important;
 	}
 	.menu--element{
 		margin-left: 0 !important;
