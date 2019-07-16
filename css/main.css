@@ -1,4 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Rubik:400,500&display=swap');
+
+
+
+/* NAVIGATION */
+/*
+	0) Global Style
+
+	0.1) Helpers Style
+	
+	0.3) ARTICLE
+
+	1) Header
+
+	1.1) Menu Hide
+
+	1.2) Menu panel
+
+	2) Start 
+
+	3) Portfolio
+
+	4) Team
+
+	5) Benefits
+
+	6) Testimonials
+
+	7) Price
+
+	8) Contact
+
+	9) Footer
+
+*/
+
+
 *{
 	-webkit-text-size-adjust: 100%;
 	margin: 0;
@@ -7,123 +43,65 @@
 	list-style: none;
 	outline: none;
 }
+
+/* 0) GLOBAL STYLES*/
+
+
 a{
 	transition: all.3s ease;
-	
 }
 
 body{
 	transition: all.3s ease;
 	font-family: Rubik;
 }
+
 a,p,span,button,pre,small{
 	font-family: 'Rubik', sans-serif;
 	color:#262626;
 	font-weight: 400;
 }
+
 small{
 	font-size: 14px;
 }
+
 h1,h2,h3,h4{
 	font-family: Montserrat;
 	color:#262626;
 }
+
 h1{
 	font-size: 64px;
 	font-weight: 700;
 }
+
 h2{
 	font-size: 46px;
 	font-weight: 600;
 }
+
 h3{
 	font-size: 40px;
 	font-weight: 400;
-}
-
-.txt--center{
-	text-align:center;
 }
 
 section{
 	padding-top: 68px;
 	padding-bottom: 80px;
 }
+/* 0.1) HELPER STYLES */
+.txt--center{
+	text-align:center;
+}
+
+
+
 .txt--white{
 	color:#fff;
 }
 
-/*Menu hide*/
-.modal--menu{
-	display: none;
-	background: #fff;
-	position: fixed;
-	right: 0;
-	left: 0;
-	z-index: 9999;
-	bottom: 0;
-	top: 88px;
-}
-
-.menu--modal--content > ul {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	height: 75vh;
-	align-items: center;
-	justify-content: center;
-}
-.menu--modal--content > ul > li:last-child{
-	margin-right: 0!important;
-}
-.menu--modal--content > ul > li {
-	display: inline-block;
-	margin-right: 30px;
-	transition: all.3s ease-in-out;
-}
-
-.menu--modal--content > ul > li > a {
-	font-size: 36px;
-	position: relative;
-	font-family: 'Rubik',sans-serif;
-	font-weight: 500;
-}
-
-.menu--modal--content > ul > li > a::after{
-	display: block;
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 0;
-	background-color: #262626;
-	transition: width .5s ease-in-out;
-	left: 0;
-	bottom: 0;
-}
-.menu--modal--content > ul > li > a::before{
-	display: block;
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 0;
-	background-color: #262626;
-	transition: width .5s ease-in-out, left .5s ease-in-out;
-	left: 0;
-	bottom: 0;
-}
-
-.menu--modal--content > ul > li > a:hover::before{
-	width: 100%;
-	right: 0;
-}
-.menu--modal--content > ul > li > a:hover::after{
-	width: 100%;
-}
-
-
-/*Article */
+/* 0.3) ARTICLE */
 .back{
 	margin-top: 35px;
 	text-align: center;
@@ -148,7 +126,85 @@ section{
 	font-size: 60px;
 }
 
-/*Header*/
+/* 1)HEADER */
+
+/* 1.1) MENU HIDE*/
+.modal--menu{
+	display: none;
+	background: #fff;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	bottom: 0;
+	top: 88px;
+}
+
+.menu--modal--content > ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 75vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu--modal--content > ul > li:last-child{
+	margin-right: 0!important;
+}
+
+.menu--modal--content > ul > li {
+	display: inline-block;
+	margin-right: 30px;
+	transition: all.3s ease-in-out;
+}
+
+.menu--modal--content > ul > li > a {
+	font-size: 36px;
+	position: relative;
+	font-family: 'Rubik',sans-serif;
+	font-weight: 500;
+}
+
+.menu--modal--content > ul > li > a::after{
+	display: block;
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 0;
+	background-color: #262626;
+	transition: width .5s ease-in-out;
+	left: 0;
+	bottom: 0;
+}
+
+.menu--modal--content > ul > li > a::before{
+	display: block;
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 0;
+	background-color: #262626;
+	transition: width .5s ease-in-out, left .5s ease-in-out;
+	left: 0;
+	bottom: 0;
+}
+
+.menu--modal--content > ul > li > a:hover::before{
+	width: 100%;
+	right: 0;
+}
+
+.menu--modal--content > ul > li > a:hover::after{
+	width: 100%;
+}
+
+
+/*  1.2) MENU PANEL */
+
+
 header{
 	background: #fff;
 	position: sticky;
@@ -156,17 +212,20 @@ header{
 	padding: 20px 0px;
 	z-index: 9999;
 }
+
 .container{
 	max-width:1240px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
 }
+
 .logo > a{
 	font-family: Montserrat;
 	font-weight: 600;
 	font-size: 36px;
 }
+
 .btn--defualt{
 	border-radius: 4px;
 	background: #03ACC1;
@@ -178,9 +237,11 @@ header{
 	cursor: pointer;
 	transition: all.2s ease;
 }
+
 .btn--defualt:hover{
 	background: #03a1b5;
 }
+
 .top--header{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -190,6 +251,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
+
 .menu--top { 
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -198,6 +260,7 @@ header{
 	display: flex;
 	align-items: center;
 }
+
 .menu--element{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -207,6 +270,7 @@ header{
 	align-items: center;
 	margin-left: 50px;
 }
+
 .menu--element > p{
 	text-transform: uppercase;
 	font-size: 18px;
@@ -215,52 +279,43 @@ header{
 }
 
 
-/* Section start*/
+/* 2) START */
 
 #start--block{
 	background:  url('../img/bg--start.png') no-repeat center center;
 	background-size: cover;
 	height: 75vh;
 }
+
 .content--inner--sliders{
 	padding-right: 40px;
 	padding-left: 40px;
 }
+
 .content--inner--sliders h1{
 	font-size: 80px;
 }
+
 .content--inner--sliders p{
 	margin-top: 15px;
 	margin-bottom: 25px;
 	font-size: 20px;
 }
+
 .content--start{
 	padding: 0 25px;
 	margin-top: 230px;
 }
-.slick-dots li button {
-	width: 10px;
-	height: 10px;
-	border: 1px solid #2c2c2c;
-	border-radius: 50%;
-	transition: border-color .5s;
-	padding: 0;
-	margin: 0;
-}
-.slick-dots li button:hover, .slick-dots li.slick-active button {
-	border-color: #03ACC1;
-	background: #03ACC1;
-}
-.slick-dots li {
-	width: 15px;
-}
-/*Section Our Portfolio*/
+
+
+/* 3) PORTFOLIO */
 
 
 
 .download--portfolio{
 	margin-top: 68px;
 }
+
 .work{
 	margin-top: 58px;
 	display: -webkit-flex;
@@ -287,6 +342,7 @@ header{
 	height: 275px;
 	transition:all.5s ease;
 }
+
 .links--or--watchNow{
 	position: absolute;
 	top: 0;
@@ -298,12 +354,15 @@ header{
 	align-items: center;
 	justify-content: center;
 }
+
 .links--or--watchNow > a:first-child {
 	margin-right: 40px;
 }
+
 .links--or--watchNow > a {
 	font-size: 30px;
 }
+
 .links--or--watchNow > a:hover{
 	color:#03ACC1;
 }
@@ -315,15 +374,18 @@ header{
 	border-bottom-right-radius: 5px;
 	padding:30px 25px;
 }
+
 .name--this--site > p{
 	font-size: 20px;
 	color:#03ACC1;
 	transition:all.5s ease;
 }
+
 .design--this-site > small{
 	color: #b5b5b5;
 	transition:all.5s ease;
 }
+
 .img--title > img{
 	width: 100%;
 	border-top-left-radius: 5px;
@@ -331,33 +393,36 @@ header{
 	height: 100%;
 	transition:all.5s ease;	
 }
+
 .port--worker:hover  {
 	background: #000000c9;
 }
+
 .port--worker:hover .about--this--site  {
 	background: #252525c9;
 }
+
 .port--worker:hover  .name--this--site > p  {
 	color:#fff;
 }
+
 .port--worker:hover  .design--this-site > small  {
 	color: #03a1b5;
 }
+
 .port--worker:hover > .img--title > img {
 	filter: opacity(0.5);
 }
 
-/*Our Team*/
+/*4) TEAM */
 
 #our--team{
 	background: url('../img/bg--all/bg.png');
 }
+
 #our--team  h2 {
 	margin-bottom: 58px;
 }
-
-
-
 
 .team{
 	display: -webkit-flex;
@@ -381,20 +446,24 @@ header{
 .person:hover{
 	border: 1px solid #FFFFFF;
 }
+
 .img--person > img{
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
 }
+
 .about--person  {
 	margin-top: 25px;
 }
+
 .about--person > .name--person {
 	font-weight: 500;
 	font-size: 24px;
 	color:#fff;
 	margin-bottom: 8px;
 }
+
 .about--person > .work--person{
 	color:#fff;
 	font-size: 18px;
@@ -407,18 +476,21 @@ header{
 	margin-right: 35px;
 	transition: all.3s ease;
 }
+
 .social--contact >a:hover{
 	opacity: .7;
 }
+
 .social--contact >a:last-child{
 	margin-right: 0 !important;
 }
 
-/* Benefits block */
+/*5) BENEFITS*/
 
 #benefits h2 {
 	margin-bottom: 60px;
 }
+
 .benefits--about{
 	max-width: 800px;
 	display: -webkit-flex;
@@ -430,42 +502,50 @@ header{
 	flex-wrap: wrap;
 	margin: 0 auto;
 }
+
 .benefits--element{
 	display: flex;
 	/* margin-right: 46px; */
 	margin: 25px;
 	max-width: 300px;
 }
+
 .img--benefits{
 	margin-right: 25px;
 }
+
 .img--benefits > img {
 	width: 63px;
 	height: 65px;
 }
+
 .benefits--this--title{
 	font-size: 18px;
 	margin-bottom: 5px;
 	font-weight: 500;
 }
+
 .benefits--this--text{
 	font-size: 17px;
 }
 
 
-/*Testimonials*/
+/*6) TESTIMONIALS*/
 
 
 #testimonials{
 	background: url('../img/bg--all/bg.png');
 }
+
 .testimonial{
 	padding-left: 35px;
 	padding-right: 35px;
 }
+
 #testimonials  h2 {
 	margin-bottom: 60px;
 }
+
 .star--testimonial{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -478,6 +558,7 @@ header{
 	font-size: 24px;
 	font-weight: 500;
 }
+
 .person--testimonial{
 	padding-left: 20px;
 	padding-right: 20px;
@@ -487,32 +568,41 @@ header{
 	font-size: 14px;
 	margin-left: 9px;
 }
+
 .about--person--testimonail > span{
 	display: inline-block;
 }
+
 .txt--testimonial > p{
 	font-size: 18px;
 	margin-top: 12px;
 }
+
 .slick-slide img{
 	vertical-align: middle;
 	display: inline-block!important;
 }
+
 .btn--all--portfolio{
 	margin-top: 55px;
 	text-align: center;
 }
+
 .slick-arrow{
 	transition: all .3s ease;
 }
+
 .slick-arrow:hover{
 	opacity: .8;
 }
-/*Price*/
+
+
+/* 7) PRICE */
 
 #price h2{
 	margin-bottom: 60px;
 }
+
 .price--block{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -524,12 +614,15 @@ header{
 	justify-content: space-around;
 
 }
+
 .content--price--block:nth-child(1){
 	padding: 40px 30px!important;
 }
+
 .content--price--block:last-child{
 	padding: 45px !important;
 }
+
 .content--price--block{
 	padding: 40px  55px;
 	margin: 20.5px;	
@@ -537,13 +630,16 @@ header{
 	border: 4px solid rgba(3, 172, 193, 0.21);
 	transition: all.3s ease;
 }
+
 .content--price--block:hover{
 	border: 4px solid #03ACC1;
 }
+
 .title--price{
 	font-size: 24px;
 	margin-bottom: 32px;
 }
+
 .cost--this--block{
 	font-family: "Montserrat",sans-serif;
 	font-weight: normal;
@@ -552,15 +648,19 @@ header{
 	font-size: 24px;
 	margin-bottom: 18px;
 }
+
 .question--often{
 	margin-top: 70px;
 }
+
 .question > a {
 	color:#03ACC1;
 }
+
 .question > a:hover{
 	opacity: .8;
 }
+
 .question{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -570,9 +670,9 @@ header{
 	max-width: 515px;
 	margin: 40px auto;
 }
+
 .icon--close_open{
 	margin-right: 25px;
-
 }
 
 .title--question{
@@ -580,11 +680,13 @@ header{
 	font-weight: 500;
 	font-size: 18px;
 }
+
 .answere--question{
 	margin-top: 8px;
 	font-weight: normal;
 	font-size: 16px;
 }
+
 .answere--question > a {
 	color:#03ACC1;
 }
@@ -592,12 +694,15 @@ header{
 .answere--question{
 	display: none;
 }
+
 .rotate-open{
 	animation: rotateopen 0.5s ease-in-out forwards;	
 }
+
 .rotate-close{
 	animation: rotateclose 0.5s ease-in-out forwards;	
 }
+
 @keyframes rotateclose {
 	from { transform: rotate( 0deg); }
 	to { transform: rotate(135deg); }
@@ -607,8 +712,7 @@ header{
 	to { transform: rotate(0deg); }
 }
 
-
-/* Contact */
+/* 8) CONTACT */
 
 #contact{
 	background: url('../img/bg--all/bg.png');
@@ -617,13 +721,16 @@ header{
 .idea--contact{
 	margin-right: 40px;
 }
+
 .idea--contact h2 {
 	margin-bottom: 18px;
 }
+
 .idea--contact p {
 	font-weight: normal;
 	font-size: 18px;
 }
+
 .contact--content{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -636,6 +743,7 @@ header{
 .inp--contact >  input:focus{
 	border-bottom:1px solid #D8D8D8;
 }
+
 .inp--contact{
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -689,23 +797,27 @@ header{
 	font-weight: 500;
 
 }
+
 .custom--btn:hover{
 	background:#03ACC1;
 }
+
 .send--msg--inp {
 	margin-top: 20px;
 }
+
 .offer{
 	cursor: pointer;
 	color:#03ACC1;
 	font-weight: 400;
 }
+
 .offer:hover{
 	text-decoration:underline;
 }
 
 
-/* Copy footer*/
+/* 9) FOOTER*/
 
 #copy--team{
 	border-top: 1px solid  #555555;
@@ -724,13 +836,16 @@ header{
 	justify-content: space-between;
 	align-items: center;
 }
+
 .fast--info > a > i {
 	margin-right: 10px;
 	font-size: 20px;
 }
+
 .email{
 	margin-left: 40px;
 }
+
 .copy > p ,.our--vk{
 	font-family: Montserrat;
 	font-weight: normal;
@@ -739,9 +854,11 @@ header{
 .our--vk i {
 	vertical-align: middle;
 }
+
 .our--vk:hover{
 	opacity: .7;
 }
+
 .our--vk{
 	cursor: pointer;
 	margin-left: 40px;
@@ -750,6 +867,7 @@ header{
 	border-radius: 46px;
 	padding: 5px 6px;
 }
+
 .our--vk:visited{
 	color:inherit;
 }
