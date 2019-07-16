@@ -54,6 +54,7 @@ a{
 body{
 	transition: all.3s ease;
 	font-family: Rubik;
+	font-size: 16px;
 }
 
 a,p,span,button,pre,small{
@@ -90,22 +91,37 @@ section{
 	padding-top: 68px;
 	padding-bottom: 80px;
 }
+.btn--defualt{
+	border-radius: .25em;
+	background: #03ACC1;
+	color:#fff;
+	font-weight: 500;
+	font-size: 1em;
+	border:0;
+	padding: .7em 1.4em;
+	cursor: pointer;
+	transition: all.2s ease;
+}
+
+.btn--defualt:hover{
+	background: #03a1b5;
+}
 /* 0.1) HELPER STYLES */
 .txt--center{
 	text-align:center;
 }
 
-
+.back{
+	margin-top: 35px;
+	text-align: center;
+}
 
 .txt--white{
 	color:#fff;
 }
 
 /* 0.3) ARTICLE */
-.back{
-	margin-top: 35px;
-	text-align: center;
-}
+
 .content--article{
 	margin-top: 20px;
 }
@@ -226,21 +242,6 @@ header{
 	font-size: 36px;
 }
 
-.btn--defualt{
-	border-radius: 4px;
-	background: #03ACC1;
-	color:#fff;
-	font-weight: 500;
-	font-size: 16px;
-	border:0;
-	padding: 10px 25px;
-	cursor: pointer;
-	transition: all.2s ease;
-}
-
-.btn--defualt:hover{
-	background: #03a1b5;
-}
 
 .top--header{
 	display: -webkit-flex;
@@ -783,17 +784,16 @@ header{
 .custom--btn{
 	display: block;
 	transition: all.3s ease;
-	border-radius: 5px;
+	border-radius: .25em;
 	border: 3px solid #03ACC1;
-	padding: 18px 65px;
+	padding: 1em 4em;
 	letter-spacing: .5px;
 	background: inherit;
 	margin: 0 auto ;
 	cursor: pointer;
 	color:#fff;
-	font-family: 'Rubik', sans-serif;
 	text-transform:uppercase;
-	margin-top: 20px;
+	margin-top: 1.3em;
 	font-weight: 500;
 
 }
