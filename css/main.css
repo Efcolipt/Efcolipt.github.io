@@ -81,21 +81,19 @@ small{
 
 h1,h2,h3,h4,h5,h6{
 	color:#f0f4f7;
+	font-weight: 400;
 }
 
 h1{
 	font-size: 64px;
-	font-weight: 600;
 }
 
 h2{
 	font-size: 46px;
-	font-weight: 600;
 }
 
 h3{
 	font-size: 40px;
-	font-weight: 600;
 }
 
 section{
