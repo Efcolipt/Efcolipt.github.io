@@ -175,13 +175,22 @@
 }
 @media only screen and (max-width: 380px){
 	.img--title{
-		height: 200px;
+		height: 150px;
 	}
 	.btn--defualt{
 		font-size: 1.1em;
 	}
 	.img--title--about--block > img{
 		width: 135px;
+	}
+	.content--price--block:nth-child(1) {
+	    padding: 40px 55px;
+	}
+	.links--or--watchNow > a {
+	    font-size: 20px;
+	}
+	.about--this--site{
+		padding: 15px;
 	}
 	.benefits--element{
 		flex-direction: column;
@@ -193,10 +202,10 @@
 		margin-right: 0;
 	}
 	.logo > a{
-		font-size: 35px;
+		font-size: 32px;
 	}
 	.benefits--this--text{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.copy > p{
 		margin-bottom: 5px;
@@ -211,7 +220,7 @@
 		font-size: 16px;
 	}
 	.about--in--txt p{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	p{
 		font-size: 18px;
@@ -221,6 +230,9 @@
 	}
 	.person--testimonial{
 		padding: 0;
+	}
+	.name--this--site > p{
+		font-size: 16px;
 	}
 	.testimonial--people{
 		text-align: center;
@@ -234,6 +246,9 @@
 	.container{
 		padding: 0 10px;
 	}
+	.number--is--stage {
+	    font-size: 45px;
+	}
 	.block--inps{
 		padding: 0;
 	}
@@ -243,7 +258,18 @@
 		margin: 30px auto 0 auto;		
 	}
 	.about--stage{
+		font-size: 16px;
 		margin-left: 0;
+	}
+	.title--img--blog > img {
+	    width: 240px;
+	    height: 210px;
+	}
+	.copy{
+		text-align: center;
+	}
+	.blog--element{
+		width: 100%;
 	}
 
 }
