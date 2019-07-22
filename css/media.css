@@ -1,98 +1,147 @@
+@media only screen and (max-width: 1200px){
+	.stage--element{
+		align-items: center;
+	}
+	.number--is--stage{
+		font-size: 70px;
+	}
+	.stage{
+		text-align: center;
+		align-items: center;
+	}
+	.img--arrow--stage{
+		display: none;
+	}
+
+	.about--stage{
+		margin: 0 0 0 10px !important;
+	}	
+
+}
 @media only screen and (max-width: 992px){
-	#start--block {
-		height: 60vh!important;
-	}
-	.content--start{
-		margin-top: 100px !important;
-	}
 	.menu--modal--content > ul{
-		flex-direction: column!important;
+		flex-direction: column;
 	}
 	.menu--modal--content > ul > li{
-		margin-right: 0 !important;
-		margin-top: 20px!important;
+		margin-right: 0 ;
+		margin-top: 20px;
 	}
 	.contact--content{
-		text-align: center!important;
-		flex-direction: column!important;
+		text-align: center;
+		flex-direction: column;
 	}
 	.idea--contact{
-		margin-right: 0 !important;
+		margin-right: 0;
 	}
-	.content--inner--sliders h1{
-		font-size: 64px !important;
-	}
+
 	.our--vk{
-		margin-left: 15px !important;
+		margin-left: 15px;
 	}
+	.send--msg--inp > button{
+		margin: 20px auto 0 auto;
+	}
+	#start--block{
+		flex-direction: column;
+		align-items: unset;
+	}
+	.content--start{
+		margin-top: 45px;
+	}
+	.about--block{
+		margin: 35px 0px!important;
+		align-items: center;
+		flex-direction: column!important;
+		text-align: center!important;
+
+	}
+	.img--title--about--block{
+		margin-left: 0!important;
+		margin-right: 0!important;
+	}
+	.about--in--txt{
+		margin-top: 20px;
+	}
+
 }
 
 @media only screen and (max-width: 790px){
-	p{
-		font-size: 18px !important;
-	}
 	h2{
-		font-size: 36px !important;
+		font-size: 36px ;
 	}
-	.about--person > .name--person{
-		font-size: 22px !important;
+	.txt--intro p{
+		font-size: 20px;
 	}
+	.about--in--txt p{
+		font-size: 20px;
+	}
+
 	.benefits--this--text{
-		font-size: 16px !important;
+		font-size: 18px ;
 	}
 	.title--testimonial > p{
-		font-size: 22px!important;
+		font-size: 22px;
 	}
 	.title--question{
-		font-size: 18px !important;
+		font-size: 20px;
 	}
 	.btn--callback{
-		display: none!important;
+		display: none;
+	}
+	.copy >p, .copy > a{
+		display: block;
 	}
 	.info--about--team{
-		flex-direction: column!important;
+		flex-direction: column;
+	}
+	.short--about--blog > p , .show--detail--blog > a{
+		font-size: 20px;
 	}
 	.our--vk{
-		display: block!important;
-		width: 25px!important;
-		margin: 10px auto!important;
+		display: block;
+		width: 25px;
+		margin: 10px auto;
 	}
 	.copy > p{
-		margin-top: 15px!important;
+		margin-top: 15px;
 	}
 	.title--price , .cost--this--block{
-		font-size: 20px!important;
+		font-size: 20px;
 	}
 	.inp--contact{
-		margin-top: 20px!important;
+		margin-top: 20px;
 	}
 	.menu--element{
-		margin-left: 0 !important;
+		margin-left: 0;
+	}
+	.logo > a{
+		font-size: 40px;
+	}
+	.stage{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
 	}
 }
 @media only screen and (max-width: 576px){
 	.block--inps{
-		width:auto !important;
+		width:auto;
 	}
 	.inp--contact{
-		flex-direction: column!important;
+		flex-direction: column;
 	}
 	.menu--element > p{
-		display: none !important;
+		display: none;
 	}
 	.menu--modal--content > ul > li > a{
-		font-size: 26px !important;
+		font-size: 26px;
 	}
 	
 	.about--person--testimonail > span:nth-child(2){
-		margin-left: 0 !important;
+		margin-left: 0;
 	}
-	.content--inner--sliders h1 {
-		font-size: 46px !important;
-	}
-	#start--block {
-		height: 50vh!important;
-	}
+
 	.fast--info{
 		display: -webkit-flex;
 		display: -moz-flex;
@@ -103,72 +152,98 @@
 	}
 	.email{
 		margin-top: 10px;
-		margin-left: 0!important;
+		margin-left: 0;
 	}
-	.content--inner--sliders{
-		padding: 0 !important;
+	.logo > a{
+		font-size: 40px;
+	}
+	.blog--element{
+		max-width: 270px;
+	}
+
+	.title--img--blog > img{
+	    width: 270px;
+   		height: 230px;
+	}
+	.short--about--blog > p{
+		font-size: 18px;
+	}
+	.show--detail--blog > a{
+		font-size: 18px;
 	}
 
 }
 @media only screen and (max-width: 380px){
 	.img--title{
-		height: 200px!important;
-	}
-	.content--inner--sliders p{
-		font-size: 16px !important;
-	}
-	.content--inner--sliders h1 {
-	    font-size: 29px !important;
-	}
-	h2 {
-	    font-size: 27px !important;
-	}
-	.person{
-		padding: 55px!important;
-	}
-	.logo > a{
-		font-size: 27px !important;
-	}
-	.benefits--this--text{
-		font-size: 14px !important;
-	}
-	#start--block {
-	    height: 35vh!important;
-	}
-	.content--start{
-		margin-top: 20px !important;
-	}
-	.copy > p{
-		font-size: 14px !important;
+		height: 200px;
 	}
 	.btn--defualt{
-		    font-size: .7em!important;
+		font-size: 1.1em;
+	}
+	.img--title--about--block > img{
+		width: 135px;
+	}
+	.benefits--element{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.img--benefits{
+		margin-right: 0;
+	}
+	.logo > a{
+		font-size: 35px;
+	}
+	.benefits--this--text{
+		font-size: 18px;
+	}
+	.copy > p{
+		margin-bottom: 5px;
+	}
+	.benefits--this--title{
+		font-size: 20px;
+	}
+	.about--this--benefits{
+		margin-top: 20px;
 	}
 	.idea--contact p{
-		font-size: 16px !important;
+		font-size: 16px;
+	}
+	.about--in--txt p{
+		font-size: 18px;
+	}
+	p{
+		font-size: 18px;
 	}
 	.txt--testimonial > p{
-		font-size: 14px !important;
+		font-size: 14px;
 	}
 	.person--testimonial{
-		padding: 0 !important;
+		padding: 0;
 	}
 	.testimonial--people{
 		text-align: center;
 	}
 	.title--question {
-	    font-size: 16px !important;
+	    font-size: 18px;
 	}
 	.answere--question{
-		font-size: 14px !important;
-	}
-	.custom--btn{
-		width: 100%!important;
+		font-size: 14px;
 	}
 	.container{
-		padding: 0 10px!important;
+		padding: 0 10px;
 	}
 	.block--inps{
-		padding: 0 !important;
+		padding: 0;
 	}
+	.stage--element{
+		flex-direction: column;
+		text-align: center;
+		margin: 30px auto 0 auto;		
+	}
+	.about--stage{
+		margin-left: 0;
+	}
+
 }

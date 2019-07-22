@@ -70,16 +70,7 @@ $(document).ready(function () {
 					  }
 					]
 				});
-			 $('.content--start').slick({
-			 	  nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:0;" />',
-				  prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:0;" />',
-				  infinite: true,
-				  speed: 3500,
-				  autoplaySpeed:15000,
-				  slidesToShow: 1,
-				  adaptiveHeight: true,
-				  autoplay: true
-			});
+
 				$(".phone").mask("+7(999)999-99-99");
 		
 				$('.slick-dots').find('button').html("");
