@@ -171,6 +171,12 @@
 	.show--detail--blog > a{
 		font-size: 18px;
 	}
+	.img--arrow{
+		display: none;
+	}
+	.back{
+		margin-top: 50px;
+	}
 
 }
 @media only screen and (max-width: 380px){
