@@ -16,6 +16,12 @@
 	.about--stage{
 		margin: 0 0 0 10px !important;
 	}	
+	.stage--element:nth-child(1){order:1;}
+	.stage--element:nth-child(2){order:2;}
+	.stage--element:nth-child(3){order:3;}
+	.stage--element:nth-child(4){order:6;}
+	.stage--element:nth-child(5){order:5;}
+	.stage--element:nth-child(6){order:4;}
 
 }
 @media only screen and (max-width: 992px){
@@ -71,12 +77,6 @@
 	.txt--intro p{
 		font-size: 20px;
 	}
-	.stage--element:nth-child(1){order:1;}
-	.stage--element:nth-child(2){order:2;}
-	.stage--element:nth-child(3){order:3;}
-	.stage--element:nth-child(4){order:6;}
-	.stage--element:nth-child(5){order:5;}
-	.stage--element:nth-child(6){order:4;}
 	.about--in--txt p{
 		font-size: 20px;
 	}
