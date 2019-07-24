@@ -1,4 +1,13 @@
 $(document).ready(function () {
+
+	
+	setTimeout(function(){
+			var preloader = $('#page--preloader');
+			if (!preloader.hasClass('done--loader')) {
+				preloader.addClass('done--loader');
+			}
+		}, 1000);
+
 	 var $hamburger = $(".hamburger"), $menu = $('.modal--menu'), $switching;
 			$hamburger.on("click", function() {
 				if ($menu.hasClass('active--menu')) {
@@ -73,5 +82,4 @@ $(document).ready(function () {
 
 				$(".phone").mask("+7(999)999-99-99");
 		
-				$('.slick-dots').find('button').html("");
 });

@@ -81,25 +81,72 @@ small{
 
 h1,h2,h3,h4,h5,h6{
 	color:#f0f4f7;
-	font-weight: 400;
 }
 
 h1{
 	font-size: 64px;
+	font-weight: 600;
 }
 
 h2{
 	font-size: 46px;
+	font-weight: 600;
 }
 
 h3{
 	font-size: 40px;
+	font-weight: 600;
 }
 
 section{
 	padding-top: 68px;
 	padding-bottom: 80px;
 }
+
+
+
+.preloader{
+	width: 100%;
+	height: 100%;
+	z-index: 250;
+	background:#1b1b1b;
+	position: fixed;
+	transition:all.3s ease;
+	opacity: 1;
+	top: 0;
+	left: 0;
+	visibility: visible;
+}
+.loader:not(.done--loader){
+	width: 35px;
+	height: 35px;
+	border:3px solid #fff0;
+	border-radius: 50%;
+	border-top-color:#fac504;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	animation:1s spin infinite linear;
+}
+.done--loader{
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+@keyframes spin {
+	from { 
+		transform:translate(-50%,-50%) rotate(0deg);
+	}
+
+	to{
+		transform:translate(-50%,-50%) rotate(360deg);
+	}
+}
+
+
+
 .btn--defualt{
 	border-radius: 1em;
 	background: inherit;
@@ -241,7 +288,7 @@ header{
 	position: sticky;
 	top: 0;
 	padding: 20px 0px;
-	z-index: 9999;
+	z-index:100;
 }
 
 .container{
@@ -252,7 +299,7 @@ header{
 }
 
 .logo > a{
-	color:#fff;
+	color:rgb(175, 178, 179);
 	font-size: 45px;
 }
 
