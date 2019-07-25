@@ -148,7 +148,7 @@ section{
 
 
 .btn--defualt{
-	border-radius: 1em;
+	border-radius: .25em;
 	background: inherit;
 	color:#afb1b3;
 	font-size: 1.2em;
