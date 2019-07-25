@@ -1035,3 +1035,6 @@ background:#03ACC1;
 	background-color: #6d6d6d;
 	border-radius: 5px;
 }
+::-webkit-scrollbar-button {
+	background: #333;
+}
