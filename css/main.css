@@ -193,10 +193,14 @@ color:#afb2b3;
 }
 .about--current--blog--par > p {
 	font-size: 22px;
+	line-height: 35px;
+}
+.about--current--blog--par > p:first-letter{
+	color:#fac504;
 }
 .current--img--title--blog{
 	float: left;
-	margin: 0px 20px 42px 0;
+	margin: 0px 20px 0px 0;
 }
 /* 1)HEADER */
 
