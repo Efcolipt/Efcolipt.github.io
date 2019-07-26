@@ -197,6 +197,9 @@ color:#afb2b3;
 }
 .about--current--blog--par > p:first-letter{
 	color:#fac504;
+	font-size: 40px;
+	text-transform:uppercase;
+
 }
 .current--img--title--blog{
 	float: left;
@@ -818,7 +821,6 @@ header{
 }
 .short--about--blog > p:first-letter{
 	color:#fac504;
-	font-size: 40px;
 	text-transform: uppercase;
 }
 .date--public--blog > p{
