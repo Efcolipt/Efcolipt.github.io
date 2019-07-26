@@ -818,6 +818,7 @@ header{
 }
 .short--about--blog > p:first-letter{
 	color:#fac504;
+	font-size: 40px;
 	text-transform: uppercase;
 }
 .date--public--blog > p{
