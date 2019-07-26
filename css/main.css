@@ -185,26 +185,15 @@ color:#afb2b3;
 
 /* 0.3) ARTICLE */
 
-.content--article{
-	margin-top: 20px;
+#current--blog > h3 {
+	margin-top: 45px;
 }
-.content--article  p {
-
-	font-size: 18px;
-	letter-spacing: 0.3px;
-	margin-top: 25px;
-	word-spacing: 5px;
-	line-height: 26px;
+.current--content--blog{
+	margin-top: 40px;
 }
-
-.blog--title{
-	text-align: center;
+.current--content--blog > p {
+	font-size: 22px;
 }
-.blog--title h1 {
-	margin-top: 35px;
-	font-size: 60px;
-}
-
 /* 1)HEADER */
 
 /* 1.1) MENU HIDE*/
