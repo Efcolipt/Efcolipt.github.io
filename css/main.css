@@ -191,8 +191,12 @@ color:#afb2b3;
 .current--content--blog{
 	margin-top: 40px;
 }
-.current--content--blog > p {
+.about--current--blog--par > p {
 	font-size: 22px;
+}
+.img--title--blog{
+	float: left;
+	margin: 0px 20px 42px 0;
 }
 /* 1)HEADER */
 
