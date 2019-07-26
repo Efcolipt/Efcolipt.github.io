@@ -185,7 +185,7 @@ color:#afb2b3;
 
 /* 0.3) ARTICLE */
 
-#current--blog > h3 {
+#current--blog  h3 {
 	margin-top: 45px;
 }
 .current--content--blog{
