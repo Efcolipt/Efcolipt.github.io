@@ -184,7 +184,15 @@
 	.back{
 		margin-top: 50px;
 	}
-
+	.error-404 h1 {
+		font-size: 150px;
+	}
+	.error-404 h2{
+		font-size: 22px;
+	}
+	.error-404 h3{
+		font-size: 18px;
+	}
 }
 @media only screen and (max-width: 380px){
 	.img--title{

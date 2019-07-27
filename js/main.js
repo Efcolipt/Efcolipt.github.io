@@ -8,7 +8,9 @@ $(document).ready(function () {
 			}
 		}, 1000);
 
-		window.onscroll = function() {indicatorBarProgress()};
+		if ($('body').is('.scroll--progress')) {
+			window.onscroll = function() {indicatorBarProgress()};
+		}
 
 		function indicatorBarProgress() {
 		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

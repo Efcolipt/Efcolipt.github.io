@@ -41,6 +41,8 @@ src: url('../font/Calibri.ttf'); /* Путь к файлу со шрифтом *
 
 11) Footer
 
+12)Portfolio page add
+
 */
 
 
@@ -103,6 +105,23 @@ h3{
 section{
 	padding-top: 68px;
 	padding-bottom: 80px;
+}
+
+input{
+	display: inline-block;
+	transition: all.3s ease;
+	background: inherit;
+	border-bottom: 1px solid #fac504;
+	padding: 1em .6em;
+	font-weight: 500;
+	color: #858585;
+	border-top:0;
+	border-left: 0;
+	border-right:0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 1em;
+	transition:all.4s linear;
 }
 
 
@@ -910,9 +929,7 @@ header{
 	justify-content: space-between;
 }
 
-.inp--contact >  input:focus{
-	border-bottom:1px solid #D8D8D8;
-}
+
 
 .inp--contact{
 	display: -webkit-flex;
@@ -932,22 +949,6 @@ header{
 	padding-left: 15px;
 	width: 100%;
 	flex-direction: column;
-}
-.inp--contact  input{
-	display: inline-block;
-	transition: all.3s ease;
-	background: inherit;
-	border-bottom: 1px solid #fac504;
-	padding: 1em .6em;
-	font-weight: 500;
-	color: #858585;
-	border-top:0;
-	border-left: 0;
-	border-right:0;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-size: 1em;
-	transition:all.4s linear;
 }
 
 
@@ -1056,6 +1057,57 @@ background:#03ACC1;
 .our--vk:visited{
 	color:inherit;
 }
+
+
+
+
+/*  12) PORTFOLIO PAGE ADD*/
+
+
+.portfolio--add  {
+	margin-top: 40px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.portfolio--add  button{
+	margin-top: 30px;
+}
+
+
+/* 13) PAGE 404*/
+.error-404 h1{
+	font-size: 200px;
+	letter-spacing: 10px;
+	color:#474747;
+}
+.error-404 h2{
+	font-size: 35px;
+	font-weight: bold;
+	color:#d9d9d9 ;
+}
+
+.error-404 h3{
+	font-size: 20px;
+	font-weight: 400;
+	color:#d9d9d9 ;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	
+}
+.error-404{
+	margin-top: 70px;
+}
+
+
+
+
+
 
 
 ::-webkit-scrollbar {
