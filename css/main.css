@@ -13,6 +13,8 @@ src: url('../font/Calibri.ttf'); /* Путь к файлу со шрифтом *
 
 0.3) ARTICLE
 
+0.4) indicator scroll
+
 1) Header
 
 	1.1) Menu Hide
@@ -209,6 +211,27 @@ color:#afb2b3;
 
 	margin: 0px 20px 40px 0;
 }
+
+/* 0.4) INDICATOR SCROLL*/
+.scroll--progress{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.inner--progress--scroll_bar{
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+#indicator--bar_progress{
+ 	height: 8px;
+  	background: #fac504;
+  	width: 20%;
+}
+
 /* 1)HEADER */
 
 /* 1.1) MENU HIDE*/
