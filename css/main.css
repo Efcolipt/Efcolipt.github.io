@@ -222,14 +222,16 @@ color:#afb2b3;
 
 .inner--progress--scroll_bar{
   width: 100%;
-  height: 8px;
-  background: #ccc;
+  height: 4px;
+  background: #333;
 }
 
 #indicator--bar_progress{
- 	height: 8px;
+ 	height: 4px;
+ 	border-bottom-right-radius:  5px;
+ 	border-top-right-radius:  5px;
   	background: #fac504;
-  	width: 20%;
+  	width: 0%;
 }
 
 /* 1)HEADER */
