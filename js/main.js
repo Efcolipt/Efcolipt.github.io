@@ -8,6 +8,15 @@ $(document).ready(function () {
 			}
 		}, 1000);
 
+		window.onscroll = function() {myFunction()};
+
+		function myFunction() {
+		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		  var scrolled = (winScroll / height) * 100;
+		  document.getElementById("indicator--bar_progress").style.width = scrolled + "%";
+		}
+
 	 var $hamburger = $(".hamburger"), $menu = $('.modal--menu'), $switching;
 			$hamburger.on("click", function() {
 				if ($menu.hasClass('active--menu')) {
