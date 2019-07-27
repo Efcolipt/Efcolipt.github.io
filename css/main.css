@@ -201,9 +201,13 @@ color:#afb2b3;
 	text-transform:uppercase;
 
 }
+.current--img--title--blog img{
+	width: 100%;
+	height: 435px;
+}
 .current--img--title--blog{
-	float: left;
-	margin: 0px 20px 0px 0;
+
+	margin: 0px 20px 40px 0;
 }
 /* 1)HEADER */
 
@@ -840,6 +844,12 @@ header{
 	max-width: 337px;
 	word-wrap: break-word;
 	margin: 20.5px;
+}
+.blog--element:first-child{
+	margin-left: 0 !important;
+}
+.blog--element:last-child{
+	margin-right: 0 !important;
 }
 .show--detail--blog > a{
 	color:#fac504;
