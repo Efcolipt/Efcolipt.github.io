@@ -15,6 +15,7 @@ $(document).ready(function () {
 		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 		  var scrolled = (winScroll / height) * 100;
 		  document.getElementById("indicator--bar_progress").style.width = scrolled + "%";
+		 $("#indicator--bar_progress").attr('title',scrolled + "%");
 		}
 
 	 var $hamburger = $(".hamburger"), $menu = $('.modal--menu'), $switching;
