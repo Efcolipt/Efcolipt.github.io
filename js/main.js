@@ -8,9 +8,9 @@ $(document).ready(function () {
 			}
 		}, 1000);
 
-		window.onscroll = function() {myFunction()};
+		window.onscroll = function() {indicatorBarProgress()};
 
-		function myFunction() {
+		function indicatorBarProgress() {
 		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 		  var scrolled = (winScroll / height) * 100;
@@ -74,21 +74,23 @@ $(document).ready(function () {
 			});
 
 			
-				$('.testimonial').slick({
-					nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
-					prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
-					slidesToShow: 2,
-					slidesToScroll: 1,
-					responsive: [
-					  {
-					    breakpoint: 768,
-					    settings: {
-					    	slidesToShow: 1,
-								slidesToScroll: 1
-					    }
-					  }
-					]
-				});
+				if ($('body').is('.testimonial')) {
+						$('.testimonial').slick({
+						nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
+						prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
+						slidesToShow: 2,
+						slidesToScroll: 1,
+						responsive: [
+						  {
+						    breakpoint: 768,
+						    settings: {
+						    	slidesToShow: 1,
+									slidesToScroll: 1
+						    }
+						  }
+						]
+					});
+				}
 
 				$(".phone").mask("+7(999)999-99-99");
 		
