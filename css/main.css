@@ -234,7 +234,7 @@ color:#afb2b3;
 /* 0.4) INDICATOR SCROLL*/
 .scroll--progress{
   position: fixed;
-  top: 0;
+  top: 95px;
   z-index: 1;
   width: 100%;
 }
