@@ -1,7 +1,7 @@
 
 @font-face {
-font-family: Calibri; /* Имя шрифта */
-src: url('../font/Calibri.ttf'); /* Путь к файлу со шрифтом */
+	font-family: Calibri; /* Имя шрифта */
+	src: url('../font/Calibri.ttf'); /* Путь к файлу со шрифтом */
 }
 
 
@@ -233,24 +233,24 @@ color:#afb2b3;
 
 /* 0.4) INDICATOR SCROLL*/
 .scroll--progress{
-  position: fixed;
-  top: 95px;
-  z-index: 1;
-  width: 100%;
+	position: fixed;
+	top: 95px;
+	z-index: 1;
+	width: 100%;
 }
 
 .inner--progress--scroll_bar{
-  width: 100%;
-  height: 4px;
-  background: #333;
+	width: 100%;
+	height: 4px;
+	background: #333;
 }
 
 #indicator--bar_progress{
- 	height: 4px;
- 	border-bottom-right-radius:  5px;
- 	border-top-right-radius:  5px;
-  	background: #fac504;
-  	width: 0%;
+	height: 4px;
+	border-bottom-right-radius:  5px;
+	border-top-right-radius:  5px;
+	background: #fac504;
+	width: 0%;
 }
 
 /* 1)HEADER */
@@ -607,19 +607,19 @@ header{
 }
 .stage--element:nth-child(3) > .img--arrow--stage{
 	right: 0;
-    bottom: -100px;
+	bottom: -100px;
 }
 .stage--element:nth-child(5) > .img--arrow--stage{
 	/* right: 0; */
-    left: -135px;
-    /* bottom: -100px; */
-    bottom: -65px;
+	left: -135px;
+	/* bottom: -100px; */
+	bottom: -65px;
 }
 .stage--element:nth-child(6) > .img--arrow--stage{
 	/* right: 0; */
-    left: -135px;
-    /* bottom: -100px; */
-    top: -65px;
+	left: -135px;
+	/* bottom: -100px; */
+	top: -65px;
 }
 
 
@@ -1019,9 +1019,9 @@ background:#03ACC1;
 }
 
 .fast--info > a > img {
-    margin-right: 10px;
-    width: 22px;
-    vertical-align: middle;
+	margin-right: 10px;
+	width: 22px;
+	vertical-align: middle;
 }
 .fast--info > a {
 	color:#afb1b3;
