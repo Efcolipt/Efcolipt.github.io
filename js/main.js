@@ -8,7 +8,7 @@ $(document).ready(function () {
 			}
 		}, 1000);
 
-		if ($('body').is('.scroll--progress')) {
+		if ($('.scroll--progress').length) {
 			window.onscroll = function() {indicatorBarProgress()};
 		}
 
@@ -76,7 +76,7 @@ $(document).ready(function () {
 			});
 
 			
-				if ($('body').is('.testimonial')) {
+				if ($('.testimonial').length) {
 						$('.testimonial').slick({
 						nextArrow: '<img src="../img/Testimonials/arrow-right.png" class="slick-next" alt="arrow-right" style="position:absolute; top:50px; right:5px;" />',
 						prevArrow: '<img src="../img/Testimonials/arrow-left.png" class="slick-prev" alt="arrow-left" style="position:absolute; top:50px; left:5px;" />',
