@@ -1,8 +1,4 @@
-
-@font-face {
-	font-family: Calibri; /* Имя шрифта */
-	src: url('../font/Calibri.ttf'); /* Путь к файлу со шрифтом */
-}
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700|Montserrat:400,700&display=swap&subset=cyrillic');
 
 
 /* NAVIGATION */
@@ -68,13 +64,13 @@ a{
 
 body{
 	transition: all.3s ease;
-	font-family: Calibri;
+	font-family: 'Exo 2',sans-serif;
 	font-size: 16px;
 	background:#1b1b1b;
 }
 
 a,p,span,button,pre,small{
-	font-family: Calibri;
+	font-family: 'Exo 2',sans-serif;
 	font-weight: 400;
 	color:rgb(231, 235, 238);
 }
@@ -84,22 +80,21 @@ small{
 }
 
 h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat',sans-serif;
 	color:#f0f4f7;
+	font-weight: 700;
 }
 
 h1{
 	font-size: 64px;
-	font-weight: 600;
 }
 
 h2{
 	font-size: 46px;
-	font-weight: 600;
 }
 
 h3{
 	font-size: 40px;
-	font-weight: 600;
 }
 
 section{
@@ -108,6 +103,8 @@ section{
 }
 
 input{
+	font-family: 'Exo 2',sans-serif;
+	font-weight: 400;
 	display: inline-block;
 	transition: all.3s ease;
 	background: inherit;
@@ -174,7 +171,7 @@ input{
 	color:#afb1b3;
 	font-size: 1.2em;
 	border:1px solid #fac504;
-	padding: .3em 1.5em;
+	padding: .4em 1.5em;
 	cursor: pointer;
 	transition: all.4s ease;
 }
@@ -213,7 +210,7 @@ color:#afb2b3;
 	margin-top: 40px;
 }
 .about--current--blog--par > p {
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 35px;
 }
 .about--current--blog--par > p:first-letter{
@@ -289,7 +286,7 @@ color:#afb2b3;
 }
 
 .menu--modal--content > ul > li > a {
-	font-size: 36px;
+	font-size: 34px;
 	position: relative;
 	font-weight: 500;
 }
@@ -401,7 +398,7 @@ header{
 	justify-content: space-around;
 }
 .txt--intro  p{
-	font-size: 22px;
+	font-size: 20px;
 }
 
 .intro--bg > img{
@@ -411,6 +408,9 @@ header{
 	width: 100%;
 	text-align: center;
 	margin-top: 20px;
+}
+.img--arrow > img{
+	width: 50px;
 }
 /* 3) PORTFOLIO */
 
@@ -482,7 +482,7 @@ header{
 }
 
 .name--this--site > p{
-	font-size: 20px;
+	font-size: 18px;
 	color:#fac504;
 	transition:all.5s ease;
 }
@@ -549,13 +549,16 @@ header{
 	text-align: right;
 }
 .about--block:nth-child(2n+1) > .img--title--about--block{
-	margin-right: 70px;
+	margin-right: 50px;
 }
 .about--block:nth-child(2n) >.img--title--about--block{
-	margin-left: 70px;
+	margin-left: 50px;
 }
 .about--in--txt p{
-	font-size: 22px;
+	font-size: 20px;
+}
+.img--title--about--block > img {
+	width: 150px;
 }
 
 
@@ -585,14 +588,14 @@ header{
 }
 .about--stage{
 	margin-left: 10px;
-	font-size: 20px;
+	font-size: 18px;
 }
 .stage--element:nth-child(2n+1) > .about--stage{
-	margin-top: 18px;
+	margin-top: 22px;
 }
 .stage--element:nth-child(2n) > .about--stage{
 	margin-top: auto;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 }
 .img--arrow--stage {
 	position: absolute;
@@ -660,13 +663,14 @@ header{
 }
 
 .benefits--this--title{
-	font-size: 24px;
+	font-size: 22px;
 	margin-bottom: 20px;
 	font-weight: 500;
 }
 
 .benefits--this--text{
-	font-size: 20px;
+	font-size: 16px;
+	color:#bababa;
 }
 
 
@@ -711,7 +715,7 @@ header{
 }
 
 .txt--testimonial > p{
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: 12px;
 }
 
@@ -774,12 +778,12 @@ header{
 }
 
 .title--price{
-	font-size: 23px;
+	font-size: 20px;
 	margin-top: 30px;
 }
 
 .cost--this--block{
-	font-size: 42px;
+	font-size: 36px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -818,13 +822,14 @@ header{
 .title--question{
 	cursor: pointer;
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .answere--question{
 	margin-top: 8px;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 14px;
+	color:#ababab;
 }
 
 .answere--question > a {
@@ -865,7 +870,7 @@ header{
 	justify-content: center;
 }
 .short--about--blog > p{
-	font-size: 22px;
+	font-size: 20px;
 }
 .short--about--blog > p:first-letter{
 	color:#fac504;
@@ -897,7 +902,7 @@ header{
 }
 .show--detail--blog > a{
 	color:#fac504;
-	font-size: 22px;
+	font-size: 20px;
 }
 .show--detail--blog > a:hover{
 	opacity: .8;
@@ -1024,9 +1029,8 @@ background:#03ACC1;
 	vertical-align: middle;
 }
 .fast--info > a {
-	color:#afb1b3;
+	color:#fff;
 	font-size: 18px;
-	font-weight: bold;
 }
 .email{
 	margin-left: 40px;
@@ -1041,9 +1045,8 @@ background:#03ACC1;
 	opacity: .7;
 }
 .copy >p{
-	color:#afb1b3;
+	color:#fff;
 	font-size: 18px;
-	font-weight: bold;
 }
 .copy >a> img {
 	width: 40px;

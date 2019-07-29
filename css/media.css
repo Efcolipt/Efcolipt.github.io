@@ -38,6 +38,7 @@
 	}
 	.idea--contact{
 		margin-right: 0;
+		margin-bottom: 30px;
 	}
 
 	.our--vk{
@@ -76,7 +77,6 @@
 	}
 	.txt--intro p{
 		text-align: center;
-		font-size: 20px;
 	}
 	.about--in--txt p{
 		font-size: 20px;
@@ -86,7 +86,7 @@
 		font-size: 18px ;
 	}
 	.title--testimonial > p{
-		font-size: 22px;
+		font-size: 20px;
 	}
 	.title--question{
 		font-size: 20px;
@@ -173,10 +173,10 @@
    		height: 230px;
 	}
 	.short--about--blog > p{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.show--detail--blog > a{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.img--arrow{
 		display: none;
@@ -197,6 +197,15 @@
 @media only screen and (max-width: 380px){
 	.img--title{
 		height: 150px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.benefits--element{
+		margin: 35px 20px;
+	}
+	.txt--intro p{
+		font-size: 16px;
 	}
 	.btn--defualt{
 		font-size: 1.1em;
@@ -259,7 +268,7 @@
 		text-align: center;
 	}
 	.title--question {
-	    font-size: 18px;
+	    font-size: 16px;
 	}
 	.answere--question{
 		font-size: 14px;
