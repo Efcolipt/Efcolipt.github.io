@@ -321,7 +321,7 @@ color:#afb2b3;
 }
 
 .menu--modal--content > ul > li > a:hover::after{
-	width: 100%;
+	width: 0%;
 }
 
 
